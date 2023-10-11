@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "fjmartinezmurcia.es",
+    "title": "F.J. Martinez-Murcia",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n2"
+    "text": "Telecommunications Engineer and PhD in Information and Communication Technologies from the University of Granada. Currently, Ramon y Cajal researcher at the University of Granada, specialising in signal processing and analysis and medical brain imaging. Finalist in Famelab 2018 and winner of 3-Minute Thesis Granada 2017. Musician and hopeless geek."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Education",
+    "text": "Education\n\nTelecommunications Engineer (2010) | University of Granada\nMsC in Computer and Network Engineering (2011) | University of Granada\nPhD in Information and Communications Technology (2017) | University of Granada"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Experience",
+    "text": "Experience\n\nWebsite manager, front-end development (2010-2011) | Language4you education S.L.\nPredoctoral researcher (2014-2017) | University of Granada, Granada\nPostdoctoral researcher (2018-2019) | DaSCI – Andalusian Institute on Data Science and Computational Intelligence, Granada\nJuan de la Cierva – formación fellow (2019-2020) | University of Malaga, Granada\nJose Castillejo fellow (2019) | Ludwig-Maximilien Universität München / Deutsche Zentrum für Neurodegenerative Erkrankungen\nJuan de la Cierva – incorporación fellow (2020-2022) | University of Granada, Granada\nRamon y Cajal fellow (2023 - ) | University of Granada, Granada\nCAS Research Group Fellow (2023 - ) | Ludwig-Maximilien Universität München"
   }
 ]
