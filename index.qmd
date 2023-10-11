@@ -7,23 +7,31 @@ about:
     image-shape: round
     image-width: 20em
     links:
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/fjesusmartinez/
-    - text: Twitter
+    - icon: twitter
+      text: Twitter
       href: https://twitter.com/pakitochus
     - text: GitHub
+      icon: github
       href: https://github.com/pakitochus
-    - text: Email
+    - icon: envelope
+      text: Email
       href: mailto:fjesusmartinez@ugr.es
 ---
 
 
 Telecommunications Engineer and PhD in Information and Communication Technologies from the University of Granada. Currently, Ramon y Cajal researcher at the University of Granada, specialising in signal processing and analysis and medical brain imaging. Finalist in Famelab 2018 and winner of 3-Minute Thesis Granada 2017. Musician and hopeless geek.
 
+---
+
 ## Education
 - **Telecommunications Engineer** (2010) | University of Granada
 - **MsC in Computer and Network Engineering** (2011) | University of Granada
 - **PhD in Information and Communications Technology** (2017) | University of Granada
+
+---
 
 ## Experience
 - **Website manager, front-end development** (2010-2011) | Language4you education S.L. 
