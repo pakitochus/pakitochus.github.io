@@ -14,7 +14,6 @@ citation:
 image: sbm-logo.jpg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 bibliography: sbm.bib
-
 ---
 
 ::: {.column-page}
