@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="F.J. Martinez-Murcia">
-<meta name="dcterms.date" content="2016-10-24">
-<meta name="description" content="Significance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a certain dataset. This was originally intended to remove acquisition site variance in neuroimaging databases.">
+<meta name="dcterms.date" content="2017-11-30">
+<meta name="description" content="Functional brain image synthesis using the KDE or MVN distribution.">
 
-<title>F.J. Martinez-Murcia - Significance Weighted Principal Component Analysis (SWPCA)</title>
+<title>F.J. Martinez-Murcia - BrainSimulator</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,26 +57,7 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -164,10 +145,10 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Significance Weighted Principal Component Analysis (SWPCA)</h1>
+      <h1 class="title">BrainSimulator</h1>
                   <div>
         <div class="description">
-          Significance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a certain dataset. This was originally intended to remove acquisition site variance in neuroimaging databases.
+          Functional brain image synthesis using the KDE or MVN distribution.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -199,7 +180,7 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 24, 2016</p>
+        <p class="date">November 30, 2017</p>
       </div>
     </div>
     
@@ -215,8 +196,8 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#use" id="toc-use" class="nav-link active" data-scroll-target="#use">Use</a></li>
-  <li><a href="#algorithm-pipeline-and-context" id="toc-algorithm-pipeline-and-context" class="nav-link" data-scroll-target="#algorithm-pipeline-and-context">Algorithm Pipeline and Context</a></li>
+  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
+  <li><a href="#quickstart" id="toc-quickstart" class="nav-link" data-scroll-target="#quickstart">Quickstart</a></li>
   </ul>
 </nav>
     </div>
@@ -226,44 +207,45 @@ div.csl-indent {
 
 
 
-<p>Significance Weighted Principal Component Analysis (SWPCA) is a technique developed to parse out the influence of a categorical variable that introduces variability in a certain dataset <span class="citation" data-cites="martinez2017brain">(<a href="#ref-martinez2017brain" role="doc-biblioref">Martinez-Murcia et al. 2017</a>)</span>. This was originally intended to remove acquisition site variance in neuroimaging databases.</p>
-<p>Download the code: <a href="https://github.com/SiPBA/swpca" class="btn btn-primary btn" role="button" data-toggle="tooltip" title="Download the package"><i class="fa-solid fa-download" aria-label="download"></i> Download</a></p>
-<section id="use" class="level1">
-<h1>Use</h1>
-<p>To use the script to remove, navigate to the download dir, load the library (import swpca) into your environment and execute this command using the current dataset and acquisition site variables:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> swpca</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>dataset_rect, weights, A <span class="op">=</span> swpca.swpca(dataset, site)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>It will return the rectified dataset, to be used in subsequent analysis.</p>
-</section>
-<section id="algorithm-pipeline-and-context" class="level1">
-<h1>Algorithm Pipeline and Context</h1>
-<p>The main use of the SWPCA algorithm is within the context of common neuroimaging analysis, such as Voxel Based Morphometry (VBM) or a classification analysis. It is a preprocessing step, and as such, it is used just after any other preprocessing steps (such as normalization, etc), and before any further analysis. It provides rectified maps with the influence of the categorical variables removed, therefore decreasing the occurrence of false positives.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="swpca_web.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Schema of the SWPCA pipeline</figcaption>
+<p><img src="schema.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Schema of Brain Simulator</figcaption>
 </figure>
 </div>
-
+<p><code>brainSimulator</code> is a brain image synthesis procedure for data augmentation and standardization of evaluation of ML neuroimaging pipelines. It intends to generate a new image set that share characteristics given an original one. The system focuses on nuclear imaging modalities such as PET or SPECT brain images. It analyses the dataset by applying PCA to the original dataset, and then model the distribution of samples in the projected eigenbrain space using a Probability Density Function (PDF) estimator. Once the model has been built, anyone can generate new coordinates on the eigenbrain space belonging to the same class, which can be then projected back to the image space.</p>
+<p><a href="http://mapbrain.readthedocs.io/en/latest/quickstart.html" class="btn btn-outline-primary btn" role="button" data-toggle="tooltip" title="Read the documentation"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> Documentation</a> <a href="https://github.com/SiPBA/mapBrain" class="btn btn-primary btn" role="button" data-toggle="tooltip" title="Download the package"><i class="fa-solid fa-download" aria-label="download"></i> Download</a></p>
+<section id="installation" class="level1">
+<h1>Installation</h1>
+<p>brainSimulator is now available via pypi and can be installed directly from:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install brainSimulator</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Alternatively, download the package, uncompress and execute:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /path/to/uncompressed/brainSimulator/</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> setup.py install</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="quickstart" class="level1">
+<h1>Quickstart</h1>
+<p>This allows to train the model once and then perform as many sample drawings as required.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">#navigate to the folder where simulator.py is located</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> brainSimulator <span class="im">as</span> sim</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>simulator <span class="op">=</span> sim.BrainSimulator(algorithm<span class="op">=</span><span class="st">'PCA'</span>, method<span class="op">=</span><span class="st">'mvnormal'</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>simulator.fit(original_dataset, labels) </span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>images, classes <span class="op">=</span> simulator.generateDataset(original_dataset, labels, N<span class="op">=</span><span class="dv">200</span>, classes<span class="op">=</span>[<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">2</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-martinez2017brain" class="csl-entry" role="listitem">
-Martinez-Murcia, Francisco Jesús, Meng-Chuan Lai, Juan Manuel Gorriz, Javier Ramirez, Adam MH Young, Sean CL Deoni, Christine Ecker, et al. 2017. <span>“On the Brain Structure Heterogeneity of Autism: Parsing Out Acquisition Site Effects with Significance-Weighted Principal Component Analysis.”</span> <em>Human Brain Mapping</em> 38 (3): 1208–23.
-</div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2016,
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2017,
   author = {Martinez-Murcia, F.J.},
-  title = {Significance {Weighted} {Principal} {Component} {Analysis}
-    {(SWPCA)}},
-  date = {2016-10-24},
-  url = {https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/},
+  title = {BrainSimulator},
+  date = {2017-11-30},
+  url = {https://pakitochus.github.io/fjmartinezmurcia.es/posts/2017-11-30-project-brainsimulator/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2016" class="csl-entry quarto-appendix-citeas" role="listitem">
-Martinez-Murcia, F.J. 2016. <span>“Significance Weighted Principal
-Component Analysis (SWPCA).”</span> October 24, 2016. <a href="https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/">https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2017" class="csl-entry quarto-appendix-citeas" role="listitem">
+Martinez-Murcia, F.J. 2017. <span>“BrainSimulator.”</span> November 30,
+2017. <a href="https://pakitochus.github.io/fjmartinezmurcia.es/posts/2017-11-30-project-brainsimulator/">https://pakitochus.github.io/fjmartinezmurcia.es/posts/2017-11-30-project-brainsimulator/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
