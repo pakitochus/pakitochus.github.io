@@ -26,7 +26,7 @@ To use the script to remove, navigate to the download dir, load the library (imp
 
 ```python
 import swpca
-dataset_rect,weights,A =swpca.swpca(dataset, site)
+dataset_rect, weights, A = swpca.swpca(dataset, site)
 ```
 
 It will return the rectified dataset, to be used in subsequent analysis.
