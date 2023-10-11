@@ -26,5 +26,40 @@
     "title": "F.J. Martinez-Murcia",
     "section": "Experience",
     "text": "Experience\n\nWebsite manager, front-end development (2010-2011) | Language4you education S.L.\nPredoctoral researcher (2014-2017) | University of Granada, Granada\nPostdoctoral researcher (2018-2019) | DaSCI – Andalusian Institute on Data Science and Computational Intelligence, Granada\nJuan de la Cierva – formación fellow (2019-2020) | University of Malaga, Granada\nJose Castillejo fellow (2019) | Ludwig-Maximilien Universität München / Deutsche Zentrum für Neurodegenerative Erkrankungen\nJuan de la Cierva – incorporación fellow (2020-2022) | University of Granada, Granada\nRamon y Cajal fellow (2023 - ) | University of Granada, Granada\nCAS Research Group Fellow (2023 - ) | Ludwig-Maximilien Universität München"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Currently I research in Information Technology, inside the interdisciplinary field of Computer Aided Diagnosis, Image-based diagnosis and Statistical and Digital Signal Processing. A provisional title for all this research is Computed Aided Diagnosis for the detection of Neurodegenerative Disorders using Medical Imaging.\nDuring this period I have belonged to the Signal Processing and Biomedical Applications (SiPBA) research group, and I have written or contributed to several publications.\n\n\nResearch projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpherical Brain Mapping\n\n\n\npython\n\n\nmatlab\n\n\nproject\n\n\n\nThe Spherical Brain Mapping (SBM) is a feature extraction and visualization framework intended to map the internal structures and features of the brain onto a 2D image that…\n\n\n\nF.J. Martinez-Murcia\n\n\nSep 15, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html",
+    "href": "research/2016-09-15-project-sbm/index.html",
+    "title": "Spherical Brain Mapping",
+    "section": "",
+    "text": "Documentation  Download"
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#project-the-brain.",
+    "href": "research/2016-09-15-project-sbm/index.html#project-the-brain.",
+    "title": "Spherical Brain Mapping",
+    "section": "Project the Brain.",
+    "text": "Project the Brain.\n\n\n\nExample of the Projections for White and Grey Matter\n\n\nSpherical Brain Mapping uses an algorithm to perform a projection of the different tissues of the brain to a single plane that can be visually analysed."
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#locate-the-most-signifcant-areas.",
+    "href": "research/2016-09-15-project-sbm/index.html#locate-the-most-signifcant-areas.",
+    "title": "Spherical Brain Mapping",
+    "section": "Locate the most signifcant areas.",
+    "text": "Locate the most signifcant areas.\n\n\n\nProjected Atlas of the AAL regions\n\n\nProjected Atlas of the AAL regions It is possible to superimpose a projected brain atlas onto a resulting significance map (e.g., a t-map). Thereby it is easy to identify the sources of the changes in a two-dimensional map."
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#write-your-own-extensions.",
+    "href": "research/2016-09-15-project-sbm/index.html#write-your-own-extensions.",
+    "title": "Spherical Brain Mapping",
+    "section": "Write your own Extensions.",
+    "text": "Write your own Extensions.\nSpherical Brain Mapping is written in Matlab, totally compatible with Octave, and ported to Python, so that you can write your own statistical properties to project the brain. The more specific these statistical are, the more significant will be your results."
   }
 ]
