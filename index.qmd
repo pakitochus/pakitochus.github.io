@@ -1,6 +1,20 @@
 ---
 title: "F.J. Martinez-Murcia"
-jupyter: python3
+image: pakitochus.jpg
+toc: false
+about: 
+    template: trestles
+    image-shape: round
+    image-width: 20em
+    links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/fjesusmartinez/
+    - text: Twitter
+      href: https://twitter.com/pakitochus
+    - text: GitHub
+      href: https://github.com/pakitochus
+    - text: Email
+      href: mailto:fjesusmartinez@ugr.es
 ---
 
 
