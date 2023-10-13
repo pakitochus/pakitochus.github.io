@@ -12,5 +12,40 @@
     "title": "Communication",
     "section": "",
     "text": "Mi Modelito Sabanero\n\n\n\ncienciavision\n\n\nmusica\n\n\ncomunicacion\n\n\nia\n\n\n\nUna oda a GPT-3\n\n\n\nF.J. Martinez-Murcia\n\n\nDec 20, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Currently I research in Information Technology, inside the interdisciplinary field of Computer Aided Diagnosis, Image-based diagnosis and Statistical and Digital Signal Processing. A provisional title for all this research is Computed Aided Diagnosis for the detection of Neurodegenerative Disorders using Medical Imaging.\nDuring this period I have belonged to the Signal Processing and Biomedical Applications (SiPBA) research group, and I have written or contributed to several publications.\n\n\nResearch projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrainSimulator\n\n\n\npython\n\n\nproject\n\n\n\nFunctional brain image synthesis using the KDE or MVN distribution.\n\n\n\nF.J. Martinez-Murcia\n\n\nNov 30, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoctoral Thesis\n\n\n\npython\n\n\nmatlab\n\n\nthesis\n\n\n\nFStatistical Neuroimage Modeling, Processing and Synthesis based on Texture and Component Analysis: Tackling the Small Sample Size Problem..\n\n\n\nF.J. Martinez-Murcia\n\n\nJun 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA)\n\n\n\npython\n\n\nproject\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a…\n\n\n\nF.J. Martinez-Murcia\n\n\nOct 24, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpherical Brain Mapping\n\n\n\npython\n\n\nmatlab\n\n\nproject\n\n\n\nThe Spherical Brain Mapping (SBM) is a feature extraction and visualization framework intended to map the internal structures and features of the brain onto a 2D image that…\n\n\n\nF.J. Martinez-Murcia\n\n\nSep 15, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "F.J. Martinez-Murcia",
+    "section": "",
+    "text": "Telecommunications Engineer and PhD in Information and Communication Technologies from the University of Granada. Currently, Ramon y Cajal researcher at the University of Granada, specialising in signal processing and analysis and medical brain imaging. Finalist in Famelab 2018 and winner of 3-Minute Thesis Granada 2017. Musician and hopeless geek."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Education",
+    "text": "Education\n\nTelecommunications Engineer (2010) | University of Granada\nMsC in Computer and Network Engineering (2011) | University of Granada\nPhD in Information and Communications Technology (2017) | University of Granada"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Experience",
+    "text": "Experience\n\nWebsite manager, front-end development (2010-2011) | Language4you education S.L.\nPredoctoral researcher (2014-2017) | University of Granada, Granada\nPostdoctoral researcher (2018-2019) | DaSCI – Andalusian Institute on Data Science and Computational Intelligence, Granada\nJuan de la Cierva – formación fellow (2019-2020) | University of Malaga, Granada\nJose Castillejo fellow (2019) | Ludwig-Maximilien Universität München / Deutsche Zentrum für Neurodegenerative Erkrankungen\nJuan de la Cierva – incorporación fellow (2020-2022) | University of Granada, Granada\nRamon y Cajal fellow (2023 - ) | University of Granada, Granada\nCAS Research Group Fellow (2023 - ) | Ludwig-Maximilien Universität München"
   }
 ]
