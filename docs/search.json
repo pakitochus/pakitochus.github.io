@@ -11,6 +11,34 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Currently I research in Information Technology, inside the interdisciplinary field of Computer Aided Diagnosis, Image-based diagnosis and Statistical and Digital Signal Processing. A provisional title for all this research is Computed Aided Diagnosis for the detection of Neurodegenerative Disorders using Medical Imaging.\nDuring this period I have belonged to the Signal Processing and Biomedical Applications (SiPBA) research group, and I have written or contributed to several publications.\n\n\nResearch projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrainSimulator\n\n\n\npython\n\n\nproject\n\n\n\nFunctional brain image synthesis using the KDE or MVN distribution.\n\n\n\nF.J. Martinez-Murcia\n\n\nNov 30, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA)\n\n\n\npython\n\n\nproject\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a…\n\n\n\nF.J. Martinez-Murcia\n\n\nOct 24, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpherical Brain Mapping\n\n\n\npython\n\n\nmatlab\n\n\nproject\n\n\n\nThe Spherical Brain Mapping (SBM) is a feature extraction and visualization framework intended to map the internal structures and features of the brain onto a 2D image that…\n\n\n\nF.J. Martinez-Murcia\n\n\nSep 15, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Currently I research in Information Technology, inside the interdisciplinary field of Computer Aided Diagnosis, Image-based diagnosis and Statistical and Digital Signal Processing. A provisional title for all this research is Computed Aided Diagnosis for the detection of Neurodegenerative Disorders using Medical Imaging.\nDuring this period I have belonged to the Signal Processing and Biomedical Applications (SiPBA) research group, and I have written or contributed to several publications.\n\n\nResearch projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrainSimulator\n\n\n\npython\n\n\nproject\n\n\n\nFunctional brain image synthesis using the KDE or MVN distribution.\n\n\n\nF.J. Martinez-Murcia\n\n\nNov 30, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoctoral Thesis\n\n\n\npython\n\n\nmatlab\n\n\nthesis\n\n\n\nFStatistical Neuroimage Modeling, Processing and Synthesis based on Texture and Component Analysis: Tackling the Small Sample Size Problem..\n\n\n\nF.J. Martinez-Murcia\n\n\nJun 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA)\n\n\n\npython\n\n\nproject\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a…\n\n\n\nF.J. Martinez-Murcia\n\n\nOct 24, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpherical Brain Mapping\n\n\n\npython\n\n\nmatlab\n\n\nproject\n\n\n\nThe Spherical Brain Mapping (SBM) is a feature extraction and visualization framework intended to map the internal structures and features of the brain onto a 2D image that…\n\n\n\nF.J. Martinez-Murcia\n\n\nSep 15, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/2017-06-01-phd-thesis/index.html",
+    "href": "research/2017-06-01-phd-thesis/index.html",
+    "title": "Doctoral Thesis",
+    "section": "",
+    "text": "This thesis is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. This means that you can download and distribute it as long as you cite the author and do not make money from it.\n Download"
+  },
+  {
+    "objectID": "research/2017-06-01-phd-thesis/index.html#this-thesis-is-copyleft",
+    "href": "research/2017-06-01-phd-thesis/index.html#this-thesis-is-copyleft",
+    "title": "Doctoral Thesis",
+    "section": "",
+    "text": "This thesis is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. This means that you can download and distribute it as long as you cite the author and do not make money from it.\n Download"
+  },
+  {
+    "objectID": "research/2017-06-01-phd-thesis/index.html#abstract",
+    "href": "research/2017-06-01-phd-thesis/index.html#abstract",
+    "title": "Doctoral Thesis",
+    "section": "Abstract",
+    "text": "Abstract\nThe rise of neuroimaging in the last years has provided physicians and radiologist with the ability to study the brain with unprecedented ease. This led to a new biological perspective in the study of neurodegenerative diseases, allowing the characterization of different anatomical and functional patterns associated with them. Computer Aided Diagnosis (CAD) systems use statistical techniques for preparing, processing and extracting information from neuroimaging data pursuing a major goal: optimize the process of analysis and diagnosis of neurodegenerative diseases and mental conditions.\nWith this thesis we focus on three different stages of the CAD pipeline: preprocessing, feature extraction and validation. For preprocessing, we have developed a method that target a relatively recent concern: the confounding effect of false positives due to differences in the acquisition at multiple sites. Our method can effectively merge datasets while reducing the acquisition site effects. Regarding feature extraction, we have studied decomposition algorithms (independent component analysis, factor analysis), texture features and a complete framework called Spherical Brain Mapping, that reduces the 3-dimensional brain images to two-dimensional statistical maps. This allowed us to improve the performance of automatic systems for detecting Alzheimer’s and Parkinson’s diseases. Finally, we developed a brain image simulation technique that can be used to validate new functional datasets as well as for educational purposes."
+  },
+  {
+    "objectID": "research/2017-06-01-phd-thesis/index.html#slides",
+    "href": "research/2017-06-01-phd-thesis/index.html#slides",
+    "title": "Doctoral Thesis",
+    "section": "Slides",
+    "text": "Slides\n    Tesis: Statistical Neuroimage Modeling, Processing and Synthesis based on Texture and Component Analysis  from Francisco Jesús Martínez Murcia"
   }
 ]
