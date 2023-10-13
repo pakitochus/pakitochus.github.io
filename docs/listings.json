@@ -1,11 +1,8 @@
 [
   {
-    "listing": "/research.html",
+    "listing": "/communication.html",
     "items": [
-      "/research/2017-11-30-project-brainsimulator/index.html",
-      "/research/2017-06-01-phd-thesis/index.html",
-      "/research/2016-10-24-project-swpca/index.html",
-      "/research/2016-09-15-project-sbm/index.html"
+      "/communication/2020-12-22-modelito-sabanero/index.html"
     ]
   }
 ]

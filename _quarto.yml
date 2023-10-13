@@ -10,6 +10,7 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - communication.qmd
       - about.qmd
 
 format:
