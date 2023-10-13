@@ -10,8 +10,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - teaching.qmd
       - communication.qmd
-      - about.qmd
 
 format:
   html:
