@@ -19,5 +19,33 @@
     "title": "Research",
     "section": "",
     "text": "Currently I research in Information Technology, inside the interdisciplinary field of Computer Aided Diagnosis, Image-based diagnosis and Statistical and Digital Signal Processing. A provisional title for all this research is Computed Aided Diagnosis for the detection of Neurodegenerative Disorders using Medical Imaging.\nDuring this period I have belonged to the Signal Processing and Biomedical Applications (SiPBA) research group, and I have written or contributed to several publications.\n\n\nResearch projects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBrainSimulator\n\n\n\npython\n\n\nproject\n\n\n\nFunctional brain image synthesis using the KDE or MVN distribution.\n\n\n\nF.J. Martinez-Murcia\n\n\nNov 30, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoctoral Thesis\n\n\n\npython\n\n\nmatlab\n\n\nthesis\n\n\n\nFStatistical Neuroimage Modeling, Processing and Synthesis based on Texture and Component Analysis: Tackling the Small Sample Size Problem..\n\n\n\nF.J. Martinez-Murcia\n\n\nJun 1, 2017\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA)\n\n\n\npython\n\n\nproject\n\n\n\nSignificance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a…\n\n\n\nF.J. Martinez-Murcia\n\n\nOct 24, 2016\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpherical Brain Mapping\n\n\n\npython\n\n\nmatlab\n\n\nproject\n\n\n\nThe Spherical Brain Mapping (SBM) is a feature extraction and visualization framework intended to map the internal structures and features of the brain onto a 2D image that…\n\n\n\nF.J. Martinez-Murcia\n\n\nSep 15, 2016\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/2020-04-14-CyS-UMA/index.html",
+    "href": "teaching/2020-04-14-CyS-UMA/index.html",
+    "title": "Circuitos y Sistemas - Canal de Youtube",
+    "section": "",
+    "text": "Playlist\nEste año impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dada la situación actual, con una pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.\nAl final (pobre ignorante) opté por esta segunda opción, para dejar que los alumnos y demás interesados pudieran acceder al contenido bajo demanda, y creé el canal de youtube UMA-CYS-GISE, acrónoimo de «Circuitos y Sistemas» – Grado en Ingeniería de Sistemas Electrónicos.\nEl resultado es una serie de vídeos cubriendo los temas que me habrían tocado en su momento, comenzando por el análisis de la respuesta en frecuencia de un circuito electrónico, y pasando por diferentes temas como los filtros de diferentes tipologías y órdenes, los diagramas de bode, implementaciones electrónicas y el análisis de cuadripolos."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching I do\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCircuitos y Sistemas - Canal de Youtube\n\n\n\ndocencia\n\n\nmatlab\n\n\npython\n\n\ncircuitos\n\n\nsistemas\n\n\n\nMaterial docente audiovisual para el seguimiento virtual y bajo demanda de la asignatura Circuitos y Sistemas de la Universidad de Malaga.\n\n\n\nF.J. Martinez-Murcia\n\n\nApr 14, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/2020-04-14-CyS-UMA/index.html#tema-3",
+    "href": "teaching/2020-04-14-CyS-UMA/index.html#tema-3",
+    "title": "Circuitos y Sistemas - Canal de Youtube",
+    "section": "Tema 3",
+    "text": "Tema 3\n\nTema 3 - Cap 1 - Respuesta en Frecuencia\nTema 3 - Cap 2 - ¿Qué es un filtro?\nTema 3 - Cap 3 - Filtro de paso baja de primer orden\nTema 3 - Cap 4 - Filtro de paso alta de primer orden\nTema 3 - Cap 5 - Filtros de Paso Baja 2º Orden\nTema 3 - Cap 6 - Filtros de paso alto de 2º orden\nTema 3 - Cap 7 - Filtros de paso banda de 2º orden\nTema 3 - Cap 8 - Filtros de banda eliminada de 2º orden\nTema 3 - Cap 9 - Diagramas de Bode (introducción)\nTema 3 - Cap 10 - Diagrama de Bode con puntos singulares reales\nTema 3 - Cap 11 - Diagramas de Bode con puntos singulares complejos conjugados\nTema 3 - Cap 12 - Diseño de filtros a partir del diagrama de Bode\nTema 3 - Cap 13 - Respuesta en frecuencia del amplificador operacional"
+  },
+  {
+    "objectID": "teaching/2020-04-14-CyS-UMA/index.html#tema-4",
+    "href": "teaching/2020-04-14-CyS-UMA/index.html#tema-4",
+    "title": "Circuitos y Sistemas - Canal de Youtube",
+    "section": "Tema 4",
+    "text": "Tema 4\n\nTema 4 - Cap 1 - Bipuertos\nTema 4 - Cap 2 - Parámetros G y H\nTema 4 - Cap 3 - Conexión en serie\nTema 4 - Cap 4 - Análisis de circuitos con bipuertos"
   }
 ]
