@@ -21,7 +21,7 @@ draft: false # setting this to `true` will prevent your post from appearing on y
 
 [{{< fa file-lines >}} Playlist](https://www.youtube.com/playlist?list=PLUMDtzUaOrOxmmtbDus5Bq3kNoKKil2KV){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Read the documentation"}
 
-Este año impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dada la situación actual, con una pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.
+En 2020 impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dado el impacto de la pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.
 
 Al final (pobre ignorante) opté por esta segunda opción, para dejar que los alumnos y demás interesados pudieran acceder al contenido bajo demanda, y creé el canal de youtube [UMA-CYS-GISE](https://www.youtube.com/channel/UCkQQqNjIeA88PlSmi4DY6qA), acrónoimo de «Circuitos y Sistemas» – Grado en Ingeniería de Sistemas Electrónicos.
 

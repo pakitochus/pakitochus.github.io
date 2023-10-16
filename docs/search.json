@@ -25,7 +25,7 @@
     "href": "teaching/2020-04-14-CyS-UMA/index.html",
     "title": "Circuitos y Sistemas - Canal de Youtube",
     "section": "",
-    "text": "Playlist\nEste año impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dada la situación actual, con una pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.\nAl final (pobre ignorante) opté por esta segunda opción, para dejar que los alumnos y demás interesados pudieran acceder al contenido bajo demanda, y creé el canal de youtube UMA-CYS-GISE, acrónoimo de «Circuitos y Sistemas» – Grado en Ingeniería de Sistemas Electrónicos.\nEl resultado es una serie de vídeos cubriendo los temas que me habrían tocado en su momento, comenzando por el análisis de la respuesta en frecuencia de un circuito electrónico, y pasando por diferentes temas como los filtros de diferentes tipologías y órdenes, los diagramas de bode, implementaciones electrónicas y el análisis de cuadripolos."
+    "text": "Playlist\nEn 2020 impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dado el impacto de la pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.\nAl final (pobre ignorante) opté por esta segunda opción, para dejar que los alumnos y demás interesados pudieran acceder al contenido bajo demanda, y creé el canal de youtube UMA-CYS-GISE, acrónoimo de «Circuitos y Sistemas» – Grado en Ingeniería de Sistemas Electrónicos.\nEl resultado es una serie de vídeos cubriendo los temas que me habrían tocado en su momento, comenzando por el análisis de la respuesta en frecuencia de un circuito electrónico, y pasando por diferentes temas como los filtros de diferentes tipologías y órdenes, los diagramas de bode, implementaciones electrónicas y el análisis de cuadripolos."
   },
   {
     "objectID": "teaching.html",
@@ -47,5 +47,26 @@
     "title": "Circuitos y Sistemas - Canal de Youtube",
     "section": "Tema 4",
     "text": "Tema 4\n\nTema 4 - Cap 1 - Bipuertos\nTema 4 - Cap 2 - Parámetros G y H\nTema 4 - Cap 3 - Conexión en serie\nTema 4 - Cap 4 - Análisis de circuitos con bipuertos"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "F.J. Martinez-Murcia",
+    "section": "",
+    "text": "Telecommunications Engineer and PhD in Information and Communication Technologies from the University of Granada. Currently, Ramon y Cajal researcher at the University of Granada, specialising in signal processing and analysis and medical brain imaging. Finalist in Famelab 2018 and winner of 3-Minute Thesis Granada 2017. Musician and hopeless geek."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Education",
+    "text": "Education\n\nTelecommunications Engineer (2010) | University of Granada\nMsC in Computer and Network Engineering (2011) | University of Granada\nPhD in Information and Communications Technology (2017) | University of Granada"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "F.J. Martinez-Murcia",
+    "section": "Experience",
+    "text": "Experience\n\nWebsite manager, front-end development (2010-2011) | Language4you education S.L.\nPredoctoral researcher (2014-2017) | University of Granada, Granada\nPostdoctoral researcher (2018-2019) | DaSCI – Andalusian Institute on Data Science and Computational Intelligence, Granada\nJuan de la Cierva – formación fellow (2019-2020) | University of Malaga, Granada\nJose Castillejo fellow (2019) | Ludwig-Maximilien Universität München / Deutsche Zentrum für Neurodegenerative Erkrankungen\nJuan de la Cierva – incorporación fellow (2020-2022) | University of Granada, Granada\nRamon y Cajal fellow (2023 - ) | University of Granada, Granada\nCAS Research Group Fellow (2023 - ) | Ludwig-Maximilien Universität München"
   }
 ]
