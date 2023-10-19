@@ -2,15 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="F.J. Martinez-Murcia">
-<meta name="dcterms.date" content="2020-04-14">
-<meta name="description" content="Material docente audiovisual para el seguimiento virtual y bajo demanda de la asignatura Circuitos y Sistemas de la Universidad de Malaga.">
+<meta name="dcterms.date" content="2020-05-11">
+<meta name="description" content="Tutorial de pytorch para la asignatura Tratamiento Digital de Voz e Imagen, del grado en Sonido de Imagen de la Universidad de Málaga..">
 
-<title>F.J. Martinez-Murcia - Circuitos y Sistemas - Canal de Youtube</title>
+<title>F.J. Martinez-Murcia - Tutorial Deep Learning con Pytorch</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,7 +62,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -114,18 +115,19 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Circuitos y Sistemas - Canal de Youtube</h1>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Tutorial Deep Learning con Pytorch</h1>
                   <div>
         <div class="description">
-          Material docente audiovisual para el seguimiento virtual y bajo demanda de la asignatura Circuitos y Sistemas de la Universidad de Malaga.
+          Tutorial de pytorch para la asignatura Tratamiento Digital de Voz e Imagen, del grado en Sonido de Imagen de la Universidad de Málaga..
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">docencia</div>
                 <div class="quarto-category">matlab</div>
                 <div class="quarto-category">python</div>
-                <div class="quarto-category">circuitos</div>
+                <div class="quarto-category">deep learning</div>
+                <div class="quarto-category">computer visioin</div>
                 <div class="quarto-category">sistemas</div>
               </div>
                   </div>
@@ -153,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 14, 2020</p>
+        <p class="date">May 11, 2020</p>
       </div>
     </div>
     
@@ -169,70 +171,46 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#temario" id="toc-temario" class="nav-link active" data-scroll-target="#temario">Temario</a>
-  <ul class="collapse">
-  <li><a href="#tema-3" id="toc-tema-3" class="nav-link" data-scroll-target="#tema-3">Tema 3</a></li>
-  <li><a href="#tema-4" id="toc-tema-4" class="nav-link" data-scroll-target="#tema-4">Tema 4</a></li>
-  </ul></li>
+  <li><a href="#organización-del-tutorial" id="toc-organización-del-tutorial" class="nav-link active" data-scroll-target="#organización-del-tutorial">Organización del tutorial</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full column-body" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-<div class="column-page">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/U49W7N_BVXs?si=Q9d33NkAF-JOJSw1" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</div>
-<p><a href="https://www.youtube.com/playlist?list=PLUMDtzUaOrOxmmtbDus5Bq3kNoKKil2KV" class="btn btn-outline-primary btn" role="button" data-toggle="tooltip" title="Read the documentation"><i class="fa-solid fa-file-lines" aria-label="file-lines"></i> Playlist</a></p>
-<p>En 2020 impartía la segunda parte de la asignatura de Circuitos y Sistemas, en la E.T.S. de Ingeniería de Telecomunicación de la Universidad de Málaga. Dado el impacto de la pandemia y confinamiento mediante, no se podía realizar de modo presencial. Así que había dos opciones: conectarse a meet/zoom o generar contenido más elaborado en forma de vídeos docentes.</p>
-<p>Al final (pobre ignorante) opté por esta segunda opción, para dejar que los alumnos y demás interesados pudieran acceder al contenido bajo demanda, y creé el canal de youtube <a href="https://www.youtube.com/channel/UCkQQqNjIeA88PlSmi4DY6qA">UMA-CYS-GISE</a>, acrónoimo de «Circuitos y Sistemas» – Grado en Ingeniería de Sistemas Electrónicos.</p>
-<p>El resultado es una serie de vídeos cubriendo los temas que me habrían tocado en su momento, comenzando por el análisis de la respuesta en frecuencia de un circuito electrónico, y pasando por diferentes temas como los filtros de diferentes tipologías y órdenes, los diagramas de bode, implementaciones electrónicas y el análisis de cuadripolos.</p>
-<section id="temario" class="level1">
-<h1>Temario</h1>
-<section id="tema-3" class="level2">
-<h2 class="anchored" data-anchor-id="tema-3">Tema 3</h2>
+<p><a href="https://pakitochus.github.io/tutorial_pytorch/landing-page.html" class="btn btn-primary btn" role="button" data-toggle="tooltip" title="Read the documentation"><i class="fa-solid fa-book" aria-label="book"></i> Formato libro</a> <a href="https://github.com/pakitochus/tutorial_pytorch" class="btn btn-outline-primary btn" role="button" data-toggle="tooltip" title="Repositorio"><i class="fa-brands fa-github" aria-label="github"></i> Repositorio</a></p>
+<p>En 2020 tuve la suerte de poder realizar una práctica de introducción al Deep Learning utilizando pytorch para que lo usaran los alumnos del <strong>grado en Sonido e Imagen</strong> de la Universidad de Málaga.</p>
+<p>Posteriormente lo edité en formato libro (bastante fácil siendo todos notebooks de jupyter) y lo colgué en github.</p>
+<section id="organización-del-tutorial" class="level1">
+<h1>Organización del tutorial</h1>
+<p>Este tutorial consta de tres partes, cada una de ellas es un <em>notebook</em> de <a href="https://jupyter.org">jupyter</a>, o sea, un documento como el que estás visualizando en este momento. Las partes son las siguientes:</p>
 <ul>
-<li>Tema 3 - Cap 1 - Respuesta en Frecuencia</li>
-<li>Tema 3 - Cap 2 - ¿Qué es un filtro?</li>
-<li>Tema 3 - Cap 3 - Filtro de paso baja de primer orden</li>
-<li>Tema 3 - Cap 4 - Filtro de paso alta de primer orden</li>
-<li>Tema 3 - Cap 5 - Filtros de Paso Baja 2º Orden</li>
-<li>Tema 3 - Cap 6 - Filtros de paso alto de 2º orden</li>
-<li>Tema 3 - Cap 7 - Filtros de paso banda de 2º orden</li>
-<li>Tema 3 - Cap 8 - Filtros de banda eliminada de 2º orden</li>
-<li>Tema 3 - Cap 9 - Diagramas de Bode (introducción)</li>
-<li>Tema 3 - Cap 10 - Diagrama de Bode con puntos singulares reales</li>
-<li>Tema 3 - Cap 11 - Diagramas de Bode con puntos singulares complejos conjugados</li>
-<li>Tema 3 - Cap 12 - Diseño de filtros a partir del diagrama de Bode</li>
-<li>Tema 3 - Cap 13 - Respuesta en frecuencia del amplificador operacional</li>
-</ul>
-</section>
-<section id="tema-4" class="level2">
-<h2 class="anchored" data-anchor-id="tema-4">Tema 4</h2>
+<li><p><strong>Parte 0: Introducción al Deep Learning</strong>. Es este <em>notebook</em>, preparatorio de la práctica mediante <strong>realización guiada</strong> en el que se tratarán:</p>
 <ul>
-<li>Tema 4 - Cap 1 - Bipuertos</li>
-<li>Tema 4 - Cap 2 - Parámetros G y H</li>
-<li>Tema 4 - Cap 3 - Conexión en serie</li>
-<li>Tema 4 - Cap 4 - Análisis de circuitos con bipuertos</li>
+<li>Unas pinceladas a las matemáticas y la historia de las redes neuronales</li>
+<li>Información sobre qué es y cómo instalar el software necesario para esta práctica: la distribución de python 3 <a href="https://www.anaconda.com/distribution/">Anaconda</a>, la librería de computación tensorial <a href="https://pytorch.org/get-started/locally/">PyTorch</a> y la plataforma de notebooks <code>jupyter</code>.</li>
+<li>Una introducción a la computación matricial en python con <code>pytorch</code>, que en muchas cosas se parece a matlab.</li>
+</ul></li>
+<li><p><strong>Parte 1: El Perceptrón Multicapa</strong>. En esta parte se introduce el perceptrón multicapa (<em>Multi-Layer Perceptron</em> o MLP), la red neuronal más básica que podemos construir. Se verán detalladamente las pautas a seguir para crear, entrenar y evaluar una red neuronal utilizando la librería <code>pytorch</code>. Será una <strong>realización guiada</strong>, sin problemas a resolver.</p></li>
+<li><p><strong>Parte 2: Redes Neuronales Convolucionales</strong>. Esta parte será la <strong>entregable</strong> de la práctica de redes. En ella veremos las redes neuronales convolucionales, que son la <strong>herramienta más potente</strong> que existe a día de hoy para el procesado de imagen. Se utilizan en coches autónomos, en la búsqueda de imágenes de google, diagnóstico de enfermedades, interpretación del lenguaje, y muchas más aplicaciones. Veremos las particularidades de estas redes y cómo se implementan cada una. La segunda parte de este <em>notebook</em> será el <strong>problema a resolver</strong>: crear y entrenar una red convolucional para la detección de dígitos escritos a mano.</p></li>
 </ul>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2020,
   author = {Martinez-Murcia, F.J.},
-  title = {Circuitos y {Sistemas} - {Canal} de {Youtube}},
-  date = {2020-04-14},
-  url = {https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2020-04-14-CyS-UMA/},
+  title = {Tutorial {Deep} {Learning} Con {Pytorch}},
+  date = {2020-05-11},
+  url = {https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2021-10-01-DeepLearning/},
   langid = {en}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2020" class="csl-entry quarto-appendix-citeas" role="listitem">
-Martinez-Murcia, F.J. 2020. <span>“Circuitos y Sistemas - Canal de
-Youtube.”</span> April 14, 2020. <a href="https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2020-04-14-CyS-UMA/">https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2020-04-14-CyS-UMA/</a>.
+Martinez-Murcia, F.J. 2020. <span>“Tutorial Deep Learning Con
+Pytorch.”</span> May 11, 2020. <a href="https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2021-10-01-DeepLearning/">https://pakitochus.github.io/fjmartinezmurcia.es/teaching/2021-10-01-DeepLearning/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
