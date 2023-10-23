@@ -1,6 +1,12 @@
 ---
 title: "Software Carpentry Workshop en el IFT e ICMAT del CSIC"
 date: "2018-12-04"
+author:
+  - name: F.J. Martinez-Murcia
+    url: https://fjmartinezmurcia.es/
+    orcid: 0000-0001-8146-7056
+    affiliation: Dpt. of Signal Theory, Networking and Communications. University of Granada & DaSCI. 
+    affiliation-url: https://dasci.es/ 
 categories: 
   - "ciencia"
 tags: 
