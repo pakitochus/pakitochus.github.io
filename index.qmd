@@ -34,11 +34,11 @@ Telecommunications Engineer and PhD in Information and Communication Technologie
 ---
 
 ## Experience
-- **Website manager, front-end development** (2010-2011) | Language4you education S.L. 
-- **Predoctoral researcher** (2014-2017) | [University of Granada](https://www.ugr.es)
-- **Postdoctoral researcher** (2018-2019) | [DaSCI – Andalusian Institute on Data Science and Computational Intelligence](https://www.dasci.es)
-- **Juan de la Cierva – formación** fellow (2019-2020) | [University of Malaga](https://www.uma.es)
-- **Jose Castillejo** fellow (2019) | [Ludwig-Maximilien Universität München](https://www.lmu.de/en/)
-- **Juan de la Cierva – incorporación** fellow (2020-2022) | [University of Granada](https://www.ugr.es)
-- **Ramon y Cajal** fellow (2023 - ) | [University of Granada](https://www.ugr.es)
 - **CAS Research Group Fellow** (2023 - ) | [Ludwig-Maximilien Universität München](https://www.lmu.de/en/)
+- **Ramon y Cajal** fellow (2023 - ) | [University of Granada](https://www.ugr.es)
+- **Juan de la Cierva – incorporación** fellow (2020-2022) | [University of Granada](https://www.ugr.es)
+- **Jose Castillejo** fellow (2019) | [Ludwig-Maximilien Universität München](https://www.lmu.de/en/)
+- **Juan de la Cierva – formación** fellow (2019-2020) | [University of Malaga](https://www.uma.es)
+- **Postdoctoral researcher** (2018-2019) | [DaSCI – Andalusian Institute on Data Science and Computational Intelligence](https://www.dasci.es)
+- **Predoctoral researcher** (2014-2017) | [University of Granada](https://www.ugr.es)
+- **Website manager, front-end development** (2010-2011) | Language4you education S.L. 

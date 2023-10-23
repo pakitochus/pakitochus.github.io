@@ -8,4 +8,13 @@ listing:
 format: html
 ---
 
-Teaching I do
+Throughout the years, I've taught more than 450h of undergrad classes, including:
+
+  - Industrial Robotics 
+  - Digital Signals 
+  - Lineal Systems and Circuit and Systems
+  - Deep Learning for Digital Signal Processing 
+
+Furthermore, I've supervised 9 final degree/master projects, and currently supervise 2 PhD theses.
+
+# Featured material
