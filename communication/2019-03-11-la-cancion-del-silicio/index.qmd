@@ -27,7 +27,7 @@ Esto es una respuesta al reto del International Year of the Periodic Table, que 
 Y el vídeo final, puesto que arreglé ciertos problemas con el vídeo originalmente colgado: 
 
 ::: {.column-page}
-{{< https://www.youtube.com/watch?v=8fy-nWmX6CY >}}
+{{< youtube 8fy-nWmX6CY >}}
 :::
 
 
