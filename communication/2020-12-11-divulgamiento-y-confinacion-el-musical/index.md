@@ -4,7 +4,7 @@ date: "2020-12-11"
 image: divulgamiento_y_confinacion.jpg
 categories: 
   - "ciencia"
-  - "cienciavision"
+  - "scenio"
   - "divulgacion"
   - "humor"
   - "musica"

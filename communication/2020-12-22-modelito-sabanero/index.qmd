@@ -8,7 +8,7 @@ author:
     affiliation: Dpt. of Signal Theory, Networking and Communications. University of Granada & DaSCI. 
     affiliation-url: https://dasci.es/ 
 date: 12-20-2020
-categories: [cienciavision, musica, comunicacion, ia] # self-defined categories
+categories: [cienciavision, musica, comunicacion, scenio, ia] # self-defined categories
 citation: 
   url: https://pakitochus.github.io/fjmartinezmurcia.es/COMMUNICATION/2020-12-22-modelito-sabanero/ 
 image: PORTADA_MODELITO.jpg

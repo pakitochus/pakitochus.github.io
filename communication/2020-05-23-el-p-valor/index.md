@@ -5,6 +5,7 @@ categories:
   - "ciencia"
   - "divulgacion"
   - "humor"
+  - "scenio"
   - "musica"
 image: BARBER_VIDEO_P_VALOR.jpg
 tags: 
