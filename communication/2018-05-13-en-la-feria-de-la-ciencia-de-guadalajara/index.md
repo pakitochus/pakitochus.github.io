@@ -16,8 +16,11 @@ tags:
 
 En la que es mi primera experiencia como monologuista fuera del círculo académico (3MT y Famelab), me llamaron para actuar en la [I Feria de la Ciencia de Guadalajara](https://twitter.com/feriacienciagu/). Para mi es todo un honor haber participado, y quiero agradecer a todos los que lo hicieron posible, con especial mención a Juan Pablo Guzmán, un adverso de pro, que lo organizó todo a la perfección.
 
-https://www.youtube.com/watch?v=TX4dFq9X1ac
+
+::: {.column-page}
+{{< youtube TX4dFq9X1ac >}}
+:::
 
 Aquí unos tweets:
 
-https://twitter.com/feriacienciagu/status/992810468522840065
+{{< tweet feriacienciagu 992810468522840065 >}}
