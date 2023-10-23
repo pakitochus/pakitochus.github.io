@@ -12,7 +12,8 @@
     "listing": "/teaching.html",
     "items": [
       "/teaching/2021-10-01-DeepLearning/index.html",
-      "/teaching/2020-04-14-CyS-UMA/index.html"
+      "/teaching/2020-04-14-CyS-UMA/index.html",
+      "/teaching/2018-12-04-software-carpentry-workshop-en-el-ift-e-icmat-del-csic/index.html"
     ]
   },
   {
@@ -34,6 +35,48 @@
       "/communication/2018-03-13-semifinalista-en-famelab-2018/index.html",
       "/communication/2017-04-10-mi-charla-de-three-minute-thesis/index.html",
       "/communication/2017-03-03-el-3mt-granada/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/2021-06-08-alcala-la-real-ano-de-construccion-de-edificios/index.html",
+      "/blog/2019-07-06-un-proyecto-teuton/index.html",
+      "/blog/2019-07-05-la-movilidad-internacional-y-el-sistema-cientifico-espanol/index.html",
+      "/blog/2019-02-05-taller-de-comunicacion-3mt/index.html",
+      "/blog/2018-02-26-jupyter-lab/index.html",
+      "/blog/2018-01-30-jugando-con-logos/index.html",
+      "/blog/2017-11-21-bohemian-rhapsody/index.html",
+      "/blog/2017-11-15-sintesis-de-imagenes-cerebrales-en-python/index.html",
+      "/blog/2017-11-10-construyendo-una-zanfona-parte-v/index.html",
+      "/blog/2017-11-09-construyendo-una-zanfona-parte-iv/index.html",
+      "/blog/2017-11-08-construyendo-una-zanfona-parte-iii/index.html",
+      "/blog/2017-11-07-construyendo-una-zanfona-parte-ii/index.html",
+      "/blog/2017-11-06-opciones-de-open-access-verde-para-cientificos/index.html",
+      "/blog/2017-11-02-construyendo-una-zanfona-gracias-a-ugears/index.html",
+      "/blog/2017-05-03-avatar-visualmooc/index.html",
+      "/blog/2017-05-03-comienza-el-mooc-visual-thinking-en-educacion/index.html",
+      "/blog/2016-09-12-hablemos-en-japones-nhk-world/index.html",
+      "/blog/2016-08-06-sintesis-de-voces-cantadas-con-letra-en-linux-ahora-es-posible/index.html",
+      "/blog/2016-04-12-como-conectar-a-un-kernel-remoto-de-ipython-en-spyder/index.html",
+      "/blog/2016-01-22-un-pensamiento-sobre-los-svm/index.html",
+      "/blog/2015-12-01-jesucristo-superstar-santa-cecilia-2015/index.html",
+      "/blog/2015-11-10-migrando-todo-a-github/index.html",
+      "/blog/2015-09-02-pensamientos-sobre-los-gmo/index.html",
+      "/blog/2015-08-26-fluidsynth-superado-ahora-empieza-lo-bueno/index.html",
+      "/blog/2015-07-15-y-vuelvo-a-tocar-con-achake/index.html",
+      "/blog/2015-06-11-ahora-empieza-lo-bueno/index.html",
+      "/blog/2015-05-19-chusocol/index.html",
+      "/blog/2015-05-12-resultado-de-la-velada/index.html",
+      "/blog/2015-05-05-xix-veladas-musicales/index.html",
+      "/blog/2015-04-07-errare-humanum-est/index.html",
+      "/blog/2015-03-05-que-ide-puedo-usar-para-trabajar-con-python-como-si-fuera-matlab/index.html",
+      "/blog/2015-03-04-tocando-mis-primeras-notas/index.html",
+      "/blog/2015-03-03-a-estas-alturas/index.html",
+      "/blog/2015-03-03-manana-me-pongo/index.html",
+      "/blog/2015-02-25-los-proyectos-personales/index.html",
+      "/blog/2015-02-21-entre-apis-y-ces/index.html",
+      "/blog/2015-02-18-comienza-la-aventura/index.html"
     ]
   }
 ]

@@ -12,6 +12,7 @@ website:
         text: Research
       - teaching.qmd
       - communication.qmd
+      - blog.qmd
 
 format:
   html:
