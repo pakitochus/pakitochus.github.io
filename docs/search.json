@@ -474,5 +474,33 @@
     "title": "Monos en el Espacio",
     "section": "",
     "text": "Y ya está aquí, por fin, el videoclip de Monos en el Espacio. La última aventura en la que tomé parte junto a Anima Adversa. Y como una imagen vale más que mil palabras, aquí va:\nhttps://www.youtube.com/watch?v=9ru_jC1h32Q\nEl vídeo ha tenido infinidad de detalles, ha tardado más de un año en ver la luz (la primera reunión de concepto fue en Enero de 2013), y ha salido adelante gracias a las ganas, esfuerzo y amor al arte de una gran cantidad de gente.\nEspecialmente, el director, Migue (Enkidu Films) ha sido el que ha sacado adelante este proyecto en el que nadie ha cobrado nada y todo el presupuesto se ha dedicado a pagar las facturas. Desde las reuniones con Lena (que diseñó los trajes de astronauta) o la planificación de la historia con Migue en muuuchos y larguísimos emails hasta la grabación en verano de 2013 (con incidentes incluídos, con una escena que finalmente no ha podido aparecer porque nos quedamos sin plató a mitad de rodaje), apenas soy capaz de recordar los nombres de todos los que han participado.\nTuty y Javi, que asistieron en todo momento a ayudar al director, grandísimos y meticulosos profesionales. Todos los “extras” del vídeo que finalmente han aparecido (Cristina de la Torre, Estela y Cristina Domingo, Inma Pérez) y los que no han podido (Toñín, Iván o Elisa).\nY posteriormente, el trabajo de postproducción, en el que ya yo he estado más desconectado, por mi marcha del grupo. En fin, ha sido una gran aventura y estoy infinitamente agradecido por haber participado en esta obra de arte, y por volver a ser, durante 7 minutos, un adverso más.\n¡Un abrazo a todos!"
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html",
+    "href": "research/2016-09-15-project-sbm/index.html",
+    "title": "Spherical Brain Mapping",
+    "section": "",
+    "text": "Documentation  Download"
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#project-the-brain.",
+    "href": "research/2016-09-15-project-sbm/index.html#project-the-brain.",
+    "title": "Spherical Brain Mapping",
+    "section": "Project the Brain.",
+    "text": "Project the Brain.\n\n\n\nExample of the Projections for White and Grey Matter\n\n\nSpherical Brain Mapping uses an algorithm to perform a projection of the different tissues of the brain to a single plane that can be visually analysed."
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#locate-the-most-signifcant-areas.",
+    "href": "research/2016-09-15-project-sbm/index.html#locate-the-most-signifcant-areas.",
+    "title": "Spherical Brain Mapping",
+    "section": "Locate the most signifcant areas.",
+    "text": "Locate the most signifcant areas.\n\n\n\nProjected Atlas of the AAL regions\n\n\nProjected Atlas of the AAL regions It is possible to superimpose a projected brain atlas onto a resulting significance map (e.g., a t-map). Thereby it is easy to identify the sources of the changes in a two-dimensional map."
+  },
+  {
+    "objectID": "research/2016-09-15-project-sbm/index.html#write-your-own-extensions.",
+    "href": "research/2016-09-15-project-sbm/index.html#write-your-own-extensions.",
+    "title": "Spherical Brain Mapping",
+    "section": "Write your own Extensions.",
+    "text": "Write your own Extensions.\nSpherical Brain Mapping is written in Matlab, totally compatible with Octave, and ported to Python, so that you can write your own statistical properties to project the brain. The more specific these statistical are, the more significant will be your results."
   }
 ]
