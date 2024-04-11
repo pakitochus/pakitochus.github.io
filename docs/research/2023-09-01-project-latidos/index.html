@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="F.J. Martinez-Murcia">
-<meta name="dcterms.date" content="2016-10-24">
-<meta name="description" content="Significance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a certain dataset. This was originally intended to remove acquisition site variance in neuroimaging databases.">
+<meta name="dcterms.date" content="2023-09-01">
+<meta name="description" content="LATent variable models to Determine the Onset of neurodegenerative Symptoms.">
 
-<title>F.J. Martinez-Murcia - Significance Weighted Principal Component Analysis (SWPCA)</title>
+<title>F.J. Martinez-Murcia - LATiDOS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,40 +22,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -173,10 +139,10 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">Significance Weighted Principal Component Analysis (SWPCA)</h1>
+      <h1 class="title">LATiDOS</h1>
                   <div>
         <div class="description">
-          Significance Weighted Principal Component Analysis (SWPCA) is a technique (1) developed to parse out the influence of a categorical variable that introduces variability in a certain dataset. This was originally intended to remove acquisition site variance in neuroimaging databases.
+          LATent variable models to Determine the Onset of neurodegenerative Symptoms.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -208,7 +174,7 @@ div.csl-indent {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">October 24, 2016</p>
+        <p class="date">September 1, 2023</p>
       </div>
     </div>
     
@@ -224,8 +190,9 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#use" id="toc-use" class="nav-link active" data-scroll-target="#use">Use</a></li>
-  <li><a href="#algorithm-pipeline-and-context" id="toc-algorithm-pipeline-and-context" class="nav-link" data-scroll-target="#algorithm-pipeline-and-context">Algorithm Pipeline and Context</a></li>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   </ul>
 </nav>
     </div>
@@ -235,44 +202,60 @@ div.csl-indent {
 
 
 
-<p>Significance Weighted Principal Component Analysis (SWPCA) is a technique developed to parse out the influence of a categorical variable that introduces variability in a certain dataset <span class="citation" data-cites="martinez2017brain">(<a href="#ref-martinez2017brain" role="doc-biblioref">Martinez-Murcia et al. 2017</a>)</span>. This was originally intended to remove acquisition site variance in neuroimaging databases.</p>
-<p>Download the code: <a href="https://github.com/SiPBA/swpca" class="btn btn-primary btn" role="button" data-toggle="tooltip" title="Download the package"><i class="fa-solid fa-download" aria-label="download"></i> Download</a></p>
-<section id="use" class="level1">
-<h1>Use</h1>
-<p>To use the script to remove, navigate to the download dir, load the library (import swpca) into your environment and execute this command using the current dataset and acquisition site variables:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> swpca</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>dataset_rect, weights, A <span class="op">=</span> swpca.swpca(dataset, site)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>It will return the rectified dataset, to be used in subsequent analysis.</p>
-</section>
-<section id="algorithm-pipeline-and-context" class="level1">
-<h1>Algorithm Pipeline and Context</h1>
-<p>The main use of the SWPCA algorithm is within the context of common neuroimaging analysis, such as Voxel Based Morphometry (VBM) or a classification analysis. It is a preprocessing step, and as such, it is used just after any other preprocessing steps (such as normalization, etc), and before any further analysis. It provides rectified maps with the influence of the categorical variables removed, therefore decreasing the occurrence of false positives.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="swpca_web.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Schema of the SWPCA pipeline</figcaption>
+<p><img src="overview_methodology.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Overview of the LATiDOS methodology</figcaption>
 </figure>
 </div>
+<p><strong>LATiDOS</strong> is a proposal oriented to solve a particular problem: to create data-driven models of the progression of neurodegeneration and use them to determine the individual age of symptom onset.</p>
+<!--[ Documentation](http://mapbrain.readthedocs.io/en/latest/quickstart.html){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Read the documentation"}
+[ Download](https://github.com/SiPBA/mapBrain){.btn .btn-primary .btn role="button" data-toggle="tooltip" title="Download the package"}-->
+<section id="the-project" class="level1">
+<h1>The project</h1>
+<p>Research has recently shown that the neuropathological processes of neurodegenerative diseases (NDDs) begin years or even decades before symptoms appear. There are several initiatives worldwide that study the progression of subjects at risk of developing these diseases, some even from a very early age, and that collect a wide variety of longitudinal data such as symptomatology, biochemical markers or neuroimaging. This would provide insight into pathological processes long before their “conversion”, or the appearance of the first symptoms.</p>
+<p>This proposal aims to combine neuroimaging, biochemical, genetic, neuropsychological and epidemiological data using data fusion and machine learning strategies to study and model the progression of NDDs and predict the individual age of symptom onset. This will be done using feature extraction and fusion methodologies using mainly latent variable models based on deep neural networks. The latent information can be combined with other associated genetic and biochemical data as well as different environmental factors to generate a series of models of NDD progression. Different individual and ensemble models of progression will be proposed, which will be validated qualitatively and quantitatively by experts in statistics and neurology, as well as by assessing their generalisability to other existing databases. On the one hand, it is hoped to obtain a better understanding of the processes of neurodegeneration that will make it possible to characterise the degree of individual affectation at a specific time and how different biological, biochemical and environmental variables affect the speed of progression of the disease. It is also hoped to obtain a computational model to predict the age of symptom onset in individual patients from the above data. On the other hand, significant advances are expected to be made in the study of current deep learning methods applied to medical imaging and data fusion, favouring the paradigm of interpretable machine learning.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="overview_progression.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">How a Disease Progression Model (DPM) works.</figcaption>
+</figure>
+</div>
+</section>
+<section id="objectives" class="level1">
+<h1>Objectives</h1>
+<p>LATiDOS has one <strong>general objective: to build and evaluate data-driven models of the progression of neurodegenerative diseases</strong>. These models should be able to determine the individual disease state and progression rate, as well as determining the Age of Symptom Onset (ASO), accounting for variability due to sex, age, etc. This can be realized by achieving the following <strong>specific objectives</strong>:</p>
+<ol type="1">
+<li><strong>Download, merge and organize a large dataset of NDDs patient data, including medical history, neuroimaging and biomarkers</strong>. Modalities include PET-PIB, PET-FDG functional images and Magnetic Resonance Imaging (MRI) -structural and functional-, as well as epidemiological, genetic, biochemical and population data that can help in NDD stratification.</li>
+<li><strong>Obtain an accurate and generalizable latent representation of each NDD data cohort with maximum clinical validity</strong>. Specific probabilistic neural architectures for manifold learning will be used for this process.</li>
+<li><strong>To derive causal and non-causal model(s) of DP at different levels of accuracy that primarily use neuroimaging-driven latent variables, but also take into account clinical, environmental and genetic background</strong>. Use them to accurately redefine ASO.</li>
+<li><strong>Test and validate the developed models using a diverse set of patients and compare their performance to existing models. Ensure that the DPMs are interpretable by expert neurologists</strong> at different levels of accuracy.</li>
+<li><strong>Explore the potential for using these models to identify new biomarkers and drug targets for neurodegenerative diseases.</strong></li>
+<li><strong>Investigate and communicate the use of these models in clinical settings, such as for early diagnosis and treatment planning</strong>. Effective communication of the methodology and results of the project to the scientific community, specialized audience (clinical staff, policymakers, as well as affected subjects and their environment) and the public.</li>
+</ol>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<p>The project is already running and we have several results, e.g.: - A novel framework to evaluate regression performance, called Statistical Agnostic Regression (SAR) <span class="citation" data-cites="gorriz2024statistical">(<a href="#ref-gorriz2024statistical" role="doc-biblioref">Gorriz et al. 2024</a>)</span>.</p>
 
 
 
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-martinez2017brain" class="csl-entry" role="listitem">
-Martinez-Murcia, Francisco Jesús, Meng-Chuan Lai, Juan Manuel Gorriz, Javier Ramirez, Adam MH Young, Sean CL Deoni, Christine Ecker, et al. 2017. <span>“On the Brain Structure Heterogeneity of Autism: Parsing Out Acquisition Site Effects with Significance-Weighted Principal Component Analysis.”</span> <em>Human Brain Mapping</em> 38 (3): 1208–23.
+<div id="ref-gorriz2024statistical" class="csl-entry" role="listitem">
+Gorriz, Juan M, J Ramirez, F Segovia, FJ Martinez-Murcia, C Jiménez-Mesa, and J Suckling. 2024. <span>“Statistical Agnostic Regression: A Machine Learning Method to Validate Regression Models.”</span> <em>arXiv Preprint arXiv:2402.15213</em>.
 </div>
-</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2016,
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2023,
   author = {Martinez-Murcia, F.J.},
-  title = {Significance {Weighted} {Principal} {Component} {Analysis}
-    {(SWPCA)}},
-  date = {2016-10-24},
-  url = {https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/},
+  title = {LATiDOS},
+  date = {2023-09-01},
+  url = {https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2016" class="csl-entry quarto-appendix-citeas" role="listitem">
-Martinez-Murcia, F.J. 2016. <span>“Significance Weighted Principal
-Component Analysis (SWPCA).”</span> October 24, 2016. <a href="https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/">https://pakitochus.github.io/fjmartinezmurcia.es/posts/2016-09-15-project-sbm/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2023" class="csl-entry quarto-appendix-citeas" role="listitem">
+Martinez-Murcia, F.J. 2023. <span>“LATiDOS.”</span> September 1, 2023.
+<a href="https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/">https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
