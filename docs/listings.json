@@ -82,5 +82,11 @@
       "/blog/2014-10-07-monos-en-el-espacio/index.html",
       "/blog/2014-09-09-flor-del-cerezo/index.html"
     ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/2024-05-10-bridging/index.html"
+    ]
   }
 ]

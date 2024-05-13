@@ -10,6 +10,7 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - publications.qmd
       - teaching.qmd
       - communication.qmd
       - blog.qmd
