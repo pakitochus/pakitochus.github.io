@@ -1,0 +1,18 @@
+---
+title: "Generador de ACKs para proyectos de la Agencia Estatal de Investigación"
+date: "2024-04-01"
+categories: 
+  - "ciencia"
+  - "tecnologia"
+tags: 
+  - "acks"
+  - "burocracia"
+---
+
+# El marco normativo 
+Uno de los principales problemas a los que se enfrenta un investigador con respecto a la normativa de justificación de ayudas de la Agencia Estatal de Investigación (AEI) es la dificultad de adaptarse correctamente a todos los requisitos específicos de las diferentes convocatorias de ayudas. Cada convocatoria puede tener sus propias normativas, formatos y criterios de evaluación, lo que exige una atención minuciosa y un entendimiento detallado de cada conjunto de reglas aplicables. Esta variabilidad puede resultar abrumadora, especialmente para investigadores que simultáneamente gestionan múltiples proyectos con diferentes fuentes de financiamiento.
+
+La complejidad y el detalle de la normativa pueden generar una carga administrativa considerable, desviando tiempo y recursos que el investigador podría dedicar a la investigación propiamente dicha.
+
+# La solución 
+Para agilizar este aspecto, 
