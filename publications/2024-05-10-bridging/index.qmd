@@ -6,8 +6,8 @@ categories:
   - "LATiDOS"
   - "neurodegenerative disease progression"
   - "Alzheimer's Disease"
-url_source: 
-url_preprint: "https://arxiv.org/abs/2312.08513"
+url_source: "https://www.worldscientific.com/doi/abs/10.1142/S0129065724500436"
+url_preprint: 
 journ: "International Journal of Neural Systems"
 issue: Online
 page: "2450043"
