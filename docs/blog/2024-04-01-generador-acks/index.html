@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.3.361">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -58,7 +58,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -161,12 +162,21 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="el-marco-normativo" class="level1">
 <h1>El marco normativo</h1>
-<p>Uno de los principales problemas a los que se enfrenta un investigador con respecto a la normativa de justificación de ayudas de la Agencia Estatal de Investigación (AEI) es la dificultad de adaptarse correctamente a todos los requisitos específicos de las diferentes convocatorias de ayudas. Cada convocatoria puede tener sus propias normativas, formatos y criterios de evaluación, lo que exige una atención minuciosa y un entendimiento detallado de cada conjunto de reglas aplicables. Esta variabilidad puede resultar abrumadora, especialmente para investigadores que simultáneamente gestionan múltiples proyectos con diferentes fuentes de financiamiento.</p>
-<p>La complejidad y el detalle de la normativa pueden generar una carga administrativa considerable, desviando tiempo y recursos que el investigador podría dedicar a la investigación propiamente dicha.</p>
+<p><strong>Burocracia</strong>.</p>
+<p>Ese mal al que nos enfrentamos el personal investigador desde tiempos inmemoriales. Uno de los últimos trends en este aspecto es una estructura rígida para la justificación de las diferentes fuentes de financiación, especialmente desde entidades públicas. Cada convocatoria puede tener sus propias normativas, formatos y criterios de evaluación, lo que exige una atención minuciosa y un entendimiento detallado de cada conjunto de reglas aplicables.</p>
+<p>A veces, navegar en este proceloso mar, hace que dediquemos bastante tiempo a intentar adaptarnos a los <a href="https://www.aei.gob.es/sites/default/files/inline-files/20240301_Instrucciones-comunicacion-publicidad-ayudas%20OK.pdf">requisitos de publicidad de ayudas</a> en documentos con decenas de páginas, en los que el tipo de estructura varía según el año de convocatoria de la misma ayuda, y, por supuesto, con traducciones manifiestamente mejorables.</p>
 </section>
 <section id="la-solución" class="level1">
 <h1>La solución</h1>
-<p>Para agilizar este aspecto,</p>
+<p>Aún así, se trata de una serie de casos debidamente definidos en el pdf, por lo que crear una interfaz básica en HTML (con simpleCSS.org para el estilo) y que modificara el output en javascript era sencillo. ¿El resultado? <a href="https://pakitochus.github.io/generador_ayudas_aei/">AQUÍ</a> ,</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/paste-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Interfaz (con modo oscuro).</figcaption>
+</figure>
+</div>
+<p>Por cierto, también genera el enlace a la etiqueta. En futuras versiones tengo ya dos cosas pendientes: la ampliación para justificar diversas ayudas en un mismo texto, y generar una etiqueta con el nombre de proyecto (supongo que usar HTML canvas para eso puede ser buena idea).</p>
+<p>Mientras, me sirve para verificar que, al menos en mi caso, los ACKS están bien puestos. Espero que os sirva a los demás también.</p>
 
 
 </section>
