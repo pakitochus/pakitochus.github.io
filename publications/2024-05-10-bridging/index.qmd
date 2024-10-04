@@ -1,7 +1,7 @@
 ---
 title: "Bridging Imaging and Clinical Scores in Parkinson's Progression Via Multimodal Self-Supervised Deep Learning"
 author: ["Francisco J. Martinez-Murcia", "Juan Eloy Arco", "Carmen Jimenez-Mesa", "Fermin Segovia", "Ignacio A. Illan", "Javier Ramirez", "Juan Manuel Gorriz"]
-publication: "International Journal of Neural Systems **Online**, _2450043_ (2024)"
+publication: "International Journal of Neural Systems Vol. **34**, No. 08, _2450043_ (2024)"
 categories:
   - "LATiDOS"
   - "neurodegenerative disease progression"
@@ -9,7 +9,8 @@ categories:
 url_source: "https://www.worldscientific.com/doi/abs/10.1142/S0129065724500436"
 url_preprint: 
 journ: "International Journal of Neural Systems"
-issue: Online
+volume: "34"
+issue: "08" 
 page: "2450043"
 year: 2024
 image: "featured.jpg"
