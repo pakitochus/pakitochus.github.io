@@ -1,6 +1,58 @@
 ---
 title: "Bridging Imaging and Clinical Scores in Parkinson's Progression Via Multimodal Self-Supervised Deep Learning"
-author: ["Francisco J. Martinez-Murcia", "Juan Eloy Arco", "Carmen Jimenez-Mesa", "Fermin Segovia", "Ignacio A. Illan", "Javier Ramirez", "Juan Manuel Gorriz"]
+author: 
+  - name: 
+      given: Francisco J.
+      family: Martinez-Murcia
+    orcid: 0000-0001-8146-7056
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Juan Eloy
+      family: Arco
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Carmen
+      family: Jimenez-Mesa
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Fermin
+      family: Segovia
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Ignacio A.
+      family: Illan
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Javier
+      family: Ramirez
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+  - name: 
+      given: Juan Manuel
+      family: Gorriz
+    affiliation: 
+      - ref: tstc
+      - ref: dasci
+affiliations:
+  - id: tstc
+    name: Dept. of Signal Theory, Networking and Communications
+    city: Granada
+    state: Spain
+  - id: dasci
+    name: Andalusian Institute for Data Science and Artificial Intelligence (DASCI)
+    city: Granada
+    state: Spain
 publication: "International Journal of Neural Systems Vol. **34**, No. 08, _2450043_ (2024)"
 categories:
   - "LATiDOS"
@@ -9,13 +61,19 @@ categories:
 url_source: "https://www.worldscientific.com/doi/abs/10.1142/S0129065724500436"
 url_preprint: 
 journ: "International Journal of Neural Systems"
-volume: "34"
-issue: "08" 
-page: "2450043"
-year: 2024
+date: 05/22/2024
 image: "featured.jpg"
 pub_number: 87
 abstract:
   "Neurodegenerative diseases pose a formidable challenge to medical research, demanding a nuanced understanding of their progressive nature. In this regard, latent generative models can effectively be used in a data-driven modeling of different dimensions of neurodegeneration, framed within the context of the manifold hypothesis. This paper proposes a joint framework for a multi-modal, common latent generative model to address the need for a more comprehensive understanding of the neurodegenerative landscape in the context of Parkinson’s disease (PD). The proposed architecture uses coupled variational autoencoders (VAEs) to joint model a common latent space to both neuroimaging and clinical data from the Parkinson’s Progression Markers Initiative (PPMI). Alternative loss functions, different normalization procedures, and the interpretability and explainability of latent generative models are addressed, leading to a model that was able to predict clinical symptomatology in the test set, as measured by the unified Parkinson’s disease rating scale (UPDRS), with R2 up to 0.86 for same-modality and 0.441 cross-modality (using solely neuroimaging). The findings provide a foundation for further advancements in the field of clinical research and practice, with potential applications in decision-making processes for PD. The study also highlights the limitations and capabilities of the proposed model, emphasizing its direct interpretability and potential impact on understanding and interpreting neuroimaging patterns associated with PD symptomatology."
+citation:
+  type: article-journal
+  container-title: "International Journal of Neural Systems"
+  doi: "10.1142/S0129065724500436"
+  url: "https://www.worldscientific.com/doi/abs/10.1142/S0129065724500436"
+  volume: 34
+  issue: 08
+  page-first: 2450043
+google-scholar: true
 ---
 
