@@ -45,11 +45,21 @@ LATiDOS has one **general objective: to build and evaluate data-driven models of
 
 # Results
 
-The project is already running and we have several published results, e.g.:
+The project is already running. The current status is:
 
+## Publications:
 -   A novel framework to evaluate regression performance, called Statistical Agnostic Regression (SAR) by @gorriz2024statistical.
 -   We published a paper in the *International Journal of Neural Systems* about a [cross-modality latent variable framework using joint Variational Autoencoders](/publications/2024-05-10-bridging/index.qmd), by @martinez-murcia2024.
 -   We published a novel paper within the [GENFI](https://www.genfi.org) initiative, in collaboration with the team at the LMU University in Munich, entitled *Frequency and Longitudinal Course of Behavioral and Neuropsychiatric Symptoms in Participants with Genetic Frontotemporal Dementia* by @schönecker2024
 -   We presented a series of publications at the *International Work-Conference on the Interplay Between Artificial and Natural Computation* (IWINAC 2024):
     -   *A Cross-Modality Latent Representation for the Prediction of Clinical Symptomatology in Parkinson’s Disease* by @vázquez-garcía2024
     -   *PDBIGDATA: A New Database for Parkinsonism Research Focused on Large Models* by @lópez2024a
+
+## Talks
+-   IWINAC 2024: [Cross-Modality Latent Variable Framework for the Prediction of Clinical Symptomatology in Parkinson’s Disease]
+-   IWINAC 2024: [PDBIGDATA: A New Database for Parkinsonism Research Focused on Large Models]
+-   *Actividad*: Música e IA at the European Researcher's Night 2024 (27/09/2024)
+-   *Taller*: ¡Las máquinas nos quitan el trabajo! (14/03/2024), en el proyecto *Mujer y Niña en la Ciencia* de la Unidad de Cultura Científica de la Universidad de Granada.
+
+## Software
+-   We released the [PDBIGDATA](https://github.com/PDBIGDATA/PDBIGDATA) database, a new database for Parkinsonism Research focused on Large Models.
