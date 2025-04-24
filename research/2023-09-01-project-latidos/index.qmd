@@ -63,3 +63,8 @@ The project is already running. The current status is:
 
 ## Software
 -   We released the [PDBIGDATA](https://github.com/PDBIGDATA/PDBIGDATA) database, a new database for Parkinsonism Research focused on Large Models.
+
+# Funding 
+This project PID2022-137629OA-I00 is funded by MICIU/AEI/10.13039/501100011033 and by ERDF/EU (European Regional Development Fund).
+
+![Funding body](MICIU+Cofinanciado+AEI.jpg)
