@@ -14,7 +14,7 @@ tags:
   - "tesis"
   - "thesis"
   - "three-minute"
-title-block-banner: url(images/DymDrnyWkAIIOXd.jpeg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/DymDrnyWkAIIOXd.jpeg) 50% 50% 
 image: images/DymDrnyWkAIIOXd.jpeg
 lightbox: true
 ---

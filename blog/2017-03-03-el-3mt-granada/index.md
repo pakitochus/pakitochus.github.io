@@ -5,7 +5,7 @@ categories:
   - "divulgacion"
 image: images/IMG_3194.jpg
 lightbox: true
-title-block-banner: url(images/IMG_3194.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/IMG_3194.jpg) 50% 50% 
 ---
 
 [Three minute thesis](https://en.wikipedia.org/wiki/Three_Minute_Thesis) es una iniciativa internacional con sólo un objetivo: contar tu tesis en tres minutos, sólo con ayuda de una diapositiva estática, para una audiencia inteligente pero no especializada. Es un reto mayúsculo para los que nos pasamos horas detrás de una pantalla de ordenador, intentando traducir líneas y líneas de código a un lenguaje especializado que pueda llegar a otro público igualmente especializado. Es **divulgación**, con todo lo que ello conlleva.

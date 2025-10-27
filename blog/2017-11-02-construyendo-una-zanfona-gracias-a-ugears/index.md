@@ -16,7 +16,7 @@ tags:
   - "zanfona"
 image: images/IMG_20171102_174115-1024x768.jpg
 lightbox: true
-title-block-banner: url(images/IMG_20171102_174115-1024x768.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/IMG_20171102_174115-1024x768.jpg) 50% 50% 
 ---
 
 Siempre me han fascinado los instrumentos musicales, especialmente los que se usaban en música antigua como el [dulcimer](https://es.wikipedia.org/wiki/Dulcémele), el [arpa](https://es.wikipedia.org/wiki/Arpa) o la [zanfona](https://es.wikipedia.org/wiki/Zanfona). Por eso mi alegría fue máxima al encontrar una campaña muy prometedora en kickstarter: [UGEARS Hurdy Gurdy,](https://www.kickstarter.com/projects/978262034/ugears-hurdy-gurdy-unique-mechanical-musical-model/) que prometía enviar unos recortables en madera para poder construir una Zanfona (_Hurdy Gurdy_ en inglés).

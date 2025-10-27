@@ -17,6 +17,9 @@ tags:
   - "moretropier"
   - "musica"
   - "ugr-es"
+title-block-banner: var(--bs-primary) url(images/61713220_447799415797351_6129436089699532800_o.jpg) 50% 50% 
+image: images/61713220_447799415797351_6129436089699532800_o.jpg
+lightbox: true
 ---
 
 ¡Pelotazo! Con apenas un mes de vida, Barber's Science se codeó con los grandes de la divulgación en el evento de clausura de _Granada, ciudad de la ciencia y la innovación._ ¡Todo un grandísimo honor!
@@ -29,11 +32,13 @@ Ha sido un año lleno de actividades de divulgación, en la feria del libro, fer
 
 Y pa muestra un botón:
 
-https://twitter.com/granadaciencia/status/1134896920755879936
+{{< tweet granadaciencia 1134896920755879936 >}}
 
 Hicimos las tres obras de "John Moretropier" que habíamos preparado: _Canción del Silicio, El enlace más fuerte_ y _Mendeleiev_. Personalmente me dejó muy buen sabor de boca, y pude conocer a auténticos referentes en la divulgación como el grandísimo Daniel Guirado!
 
 Fue una tarde muy intensa y muy emocionante. Y aquí, algunas fotos, cortesía de @SaseAmaro:
+
+::: {layout-ncol=3}
 
 ![](images/61626973_447798612464098_3466828993523613696_o.jpg)
 
@@ -76,3 +81,5 @@ Fue una tarde muy intensa y muy emocionante. Y aquí, algunas fotos, cortesía d
 ![](images/62211883_447799172464042_4525472744757788672_o.jpg)
 
 ![](images/62333513_447792989131327_3444907192682020864_o.jpg)
+
+:::

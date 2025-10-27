@@ -29,7 +29,5 @@ listing:
 page-layout: full
 ---
 
-<hr>
-
 ::: {#pubs}
 :::

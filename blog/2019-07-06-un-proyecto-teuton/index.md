@@ -17,7 +17,7 @@ tags:
   - "pib"
   - "proyecto"
   - "research-es"
-title-block-banner: url(images/2019-07-06-20.52.48.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/2019-07-06-20.52.48.jpg) 50% 50% 
 image: images/2019-07-06-20.52.48.jpg
 lightbox: true
 ---

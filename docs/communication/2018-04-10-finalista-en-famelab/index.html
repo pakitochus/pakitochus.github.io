@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-ea9d8cf3198e06fc76de5f96a082d186.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-c1c7a596ba90fe9289ce4d8216c2f903.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: var(--bs-primary) url(images/30516566_2057254307851929_1634744499378847744_o.jpg) 50% 50%;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -167,12 +176,23 @@ ul.task-list li input[type="checkbox"] {
 <p>Pues resulta que finalmente he pasado a la final de&nbsp;<strong>Famelab</strong>, el concurso de monólogos científicos por antonomasia. Fíjate que nunca pensé hacer un monólogo (y mucho menos científico), pero tras la insistencia de&nbsp;<strong>Carlos Centeno</strong>, aquí estoy, y ¡hemos venido a jugar!</p>
 <p>Así que estoy muy honrado de estar entre los ocho finalistas, y a los que se quedaron fuera, recomendaros que echéis un vistazo a sus monólogos porque son geniales y merecían totalmente seguir con nosotros.&nbsp;<strong>Laura</strong>,&nbsp;<strong>Jose Luis</strong>,&nbsp;<strong>Marina</strong>, y&nbsp;<strong>Carlos</strong>, ¡os echaremos mucho de menos!</p>
 <p>Y para el que le interese, este es mi monologuillo:</p>
-<p>https://www.youtube.com/watch?v=4xaPxNPr43w</p>
-<ul>
-<li><p><img src="images/30442443_2057666084477418_8640889998100398080_n.jpg" class="img-fluid"></p></li>
-<li><p><img src="images/30516100_2057665707810789_1230856379137261568_n.jpg" class="img-fluid"></p></li>
-<li><p><img src="images/30516566_2057254307851929_1634744499378847744_o.jpg" class="img-fluid"></p></li>
-</ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/4xaPxNPr43w" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/30442443_2057666084477418_8640889998100398080_n.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/30442443_2057666084477418_8640889998100398080_n.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/30516100_2057665707810789_1230856379137261568_n.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/30516100_2057665707810789_1230856379137261568_n.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/30516566_2057254307851929_1634744499378847744_o.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/30516566_2057254307851929_1634744499378847744_o.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 
 
 
@@ -739,6 +759,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

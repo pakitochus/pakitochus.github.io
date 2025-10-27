@@ -15,3 +15,7 @@ td .listing-author{
 td > span.listing-container-title{
   font-style: italic;
 }
+
+.quarto-title-banner {
+  background-blend-mode: multiply;
+}

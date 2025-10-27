@@ -90,6 +90,8 @@ El consumo energético: ésta es la cara B de todo el _boom_ del Deep Learning. 
 
 Ada Lovelace (1815-1852) se considera la primera programadora de la historia. Fue hija del poeta inglés Lord Byron, y de la también matemática y activista social Anna Isabella Byron. Fue educada, entre otras, por la matemática Mary Somerville. Tuvo una buena relación con Charles Babbage, a quien ayudó a diseñar el funcionamiento teórico de la «máquina diferencial», describiendo en sus «Notas» con un lenguaje muy técnico cómo funcionaría esta máquina, distinguiendo con claridad los conceptos de datos y procesamiento. Pero para más datos, este hilo es genial:
 
+{{< tweet AUEmmyNoether 1340394678278119437 >}}
+
 De [Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing), poco se puede decir que no se haya dicho ya. Padre de la Inteligencia Artificial, descifró Enigma (la máquina de los Nazis) y fue condenado al ostracismo por su propio gobierno al descubrir su homosexualidad. Acabó suicidándose.
 
 Por último, [Hinton y LeCun](https://www.zdnet.com/article/deep-learning-godfathers-bengio-hinton-and-lecun-say-the-field-can-fix-its-flaws/) son considerados «padres» de la explosión del deep learning.

@@ -11,7 +11,7 @@ tags:
   - "ipython-es"
   - "jupyter-es"
   - "python-es"
-title-block-banner: url(images/Captura-de-pantalla-de-2018-02-26-13-39-22.png) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/Captura-de-pantalla-de-2018-02-26-13-39-22.png) 50% 50% 
 image: images/Captura-de-pantalla-de-2018-02-26-13-39-22.png
 lightbox: true
 ---

@@ -16,19 +16,22 @@ tags:
   - "musica"
   - "pint-of-science"
   - "quartet"
+title-block-banner: var(--bs-primary) url(images/D7HSBtnXoAUIQur.jpg) 50% 50% 
+image: images/D7HSBtnXoAUIQur.jpg
+lightbox: true
 ---
 
 Era la primera vez para muchas cosas, y ha sido mágica. En primer lugar porque de un [absurdo reto en twitter](https://www.fjmartinezmurcia.es/2019/03/la-cancion-del-silicio/) he montado un cuarteto de armonía vocal, o _BarberShop Quartet_ que parece que está despegando a pasos agigantados. En segundo lugar porque era mi primera charla divulgativa de más de 15 minutos, y estaba muy nervioso por, entre otras cosas, pasarme o quedarme corto, o aburrir soberanamente al personal.
 
-![](https://i2.wp.com/www.fjmartinezmurcia.es/wp-content/uploads/2019/07/D7HQ25YW0AUVS_l.jpg?fit=640%2C480&ssl=1)
 
-Comenzando la presentación
+![Comenzando la presentación](https://i2.wp.com/www.fjmartinezmurcia.es/wp-content/uploads/2019/07/D7HQ25YW0AUVS_l.jpg?fit=640%2C480&ssl=1)
+
 
 Parece que ninguno de mis temores se cumplió. Al parecer la charla gustó bastante, empezando con una estructura similar a [mi primer monólogo en Famelab](https://www.fjmartinezmurcia.es/2018/04/finalista-en-famelab/) (el bueno), pero con mayor profundidad, con ayuda de imágenes, y explicando numerosas aplicaciones.. ¡E incluso hablando de arquitecturas más complejas como Autoencoders o GANs! En fin, desde aquí quiero agradecer muchísimo a todos los que asistieron, a los que vinieron a apoyar muy fuertemente (GRACIAS), y muy en especial a la organización de Pint of Science Granada, en especial a María, Óscar y Sara, extensible a todos los que lo hicieron posible.
 
-![](https://i0.wp.com/www.fjmartinezmurcia.es/wp-content/uploads/2019/07/D7HSBtnXoAUIQur.jpg?fit=640%2C480&ssl=1)
+![Bebiendo agua como un cosaco para que se me pasara la bocaseca de los nervios. #bocasecaman
+](https://i0.wp.com/www.fjmartinezmurcia.es/wp-content/uploads/2019/07/D7HSBtnXoAUIQur.jpg?fit=640%2C480&ssl=1)
 
-Bebiendo agua como un cosaco para que se me pasara la bocaseca de los nervios. #bocasecaman
 
 Y, pese al éxito individual que supuso la charla, y que me demostró que también soy capaz de estar hablando tres cuartos de hora de redes neuronales sin ser muy pelmazo, hay un punto que me picó ya la vena/ego artístico-farandulero: **Barber's Science**.
 

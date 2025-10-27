@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap-ea9d8cf3198e06fc76de5f96a082d186.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-c1c7a596ba90fe9289ce4d8216c2f903.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: var(--bs-primary) url(images/Q1B8467.jpg) 50% 50%;
+      }
+</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -167,14 +176,27 @@ ul.task-list li input[type="checkbox"] {
 <p>Finalmente, tras la maravillosa experiencia de la semifinal de&nbsp;<strong>Famelab</strong>, tuvimos unas cuantas jornadas más de convivencia y aprendizaje, incluyendo la genial Masterclass de&nbsp; <strong>James Piercy</strong>, un conocido especialista en comunicación científica con un CV envidiable. Y tras ella, el momento más esperado, la&nbsp;<strong>FINAL</strong>.</p>
 <p>Hace tiempo que, para mi, Famelab dejó de ser un concurso para pasar a ser una experiencia vital, en la que he conocido gente maravillosa, he aprendido muchísimo sobre ciencia y comunicación, y sobre todo, me lo he pasado genial. Y ha brindado oportunidades únicas, como esta gala final de Famelab en la mítica <strong>Sala Galileo</strong>, presentada por&nbsp;<strong>Ana Morgade</strong>, y a la que incluso asistieron los&nbsp;<strong>Reyes de España</strong>. Y mi <strong>abuelo</strong>, que ya es mucho decir.</p>
 <p>Y este es el monólogo con el que me lucí (más o menos) frente a tan insigne públco:</p>
-<p>https://www.youtube.com/watch?v=LQMRskbYEHs</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/LQMRskbYEHs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <p>No fue tan potente (para mi gusto) como el primero, pero me divertí mucho haciéndolo y aprendí bastante. Finalmente, el ganador fue aplastantemente el grandísimo&nbsp;<strong>Juan Margalef</strong>, seguidos por&nbsp;<strong>Raquel Medialdea</strong>&nbsp;e&nbsp;<strong>Ignacio Crespo</strong>&nbsp;(al que recomiendo seguir, ya que tiene una larga trayectoria en divulgación, y con todo esto va a ir a muuucho más). Premios muy merecidos, como los merecían todos y cada uno.</p>
 <p>Y pa muestra, una de las fotos que más transmite el espíritu que nos ha contagiado este Famelab:</p>
-<p><img src="images/Q1B9277-1024x683.jpg" class="img-fluid"></p>
+<p><a href="images/Q1B9277-1024x683.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/Q1B9277-1024x683.jpg" class="img-fluid"></a></p>
 <p>¡Mil gracias a todos!</p>
-<p><img src="images/Q1B8095-1024x683.jpg" class="img-fluid"></p>
-<p><img src="images/Q1B9277-1024x683.jpg" class="img-fluid"></p>
-<p><img src="images/Q1B8467-1024x683.jpg" class="img-fluid"></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/Q1B8095-1024x683.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/Q1B8095-1024x683.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/Q1B9277-1024x683.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/Q1B9277-1024x683.jpg" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<p><a href="images/Q1B8467-1024x683.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/Q1B8467-1024x683.jpg" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
 
 
 
@@ -741,6 +763,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -9,7 +9,7 @@ tags:
   - "diseno-es"
   - "mri"
   - "visual-thinking"
-title-block-banner: url(images/perfilç.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/perfilç.jpg) 50% 50% 
 image: images/perfilç.jpg
 lightbox: true
 ---

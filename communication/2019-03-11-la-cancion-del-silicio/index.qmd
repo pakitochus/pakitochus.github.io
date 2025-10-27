@@ -18,6 +18,8 @@ tags:
   - "science-es"
   - "scingles"
   - "silicio"
+title-block-banner: var(--bs-primary) url(images/Captura-de-pantalla-de-2019-02-21-11-59-42.png) no-repeat 50% 10% / cover
+image: images/Captura-de-pantalla-de-2019-02-21-11-59-42.png
 ---
 
 Esto es una respuesta al reto del International Year of the Periodic Table, que me propusieron en twitter. Como ingeniero de teleco, mi elemento favorito es el silicio. Y con todo el amor que le tengo, le he compuesto una canción [#IYPT2019](https://www.facebook.com/hashtag/iypt2019?source=feed_text&epa=HASHTAG)

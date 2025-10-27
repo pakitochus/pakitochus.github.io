@@ -4,7 +4,7 @@ date: "2014-10-06"
 categories: 
   - "ciencia"
   - "divulgacion"
-title-block-banner: url(images/dipolo.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/dipolo.jpg) 50% 50% 
 image: images/dipolo.jpg
 ---
 

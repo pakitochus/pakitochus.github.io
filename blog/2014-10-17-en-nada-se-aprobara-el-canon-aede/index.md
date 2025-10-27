@@ -10,7 +10,7 @@ tags:
   - "gobierno-es"
   - "internet-es"
   - "open-source-es"
-title-block-banner: url(images/080-gurusblog-canon-aede.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/080-gurusblog-canon-aede.jpg) 50% 50% 
 ---
 
 Y con cualquier gobierno vuelve a ocurrir. El ejecutivo legisla a favor de los grupos de presión más "afines", desde un punto de vista de estatus. En este caso le ha tocado a la Asociación de Editores de Diarios Españoles (AEDE), que ha conseguido que se imponga la mal llamada "**Tasa Google**", que consiste básicamente en cobrar a un agregador de noticias por enlazar a los medios de AEDE (los principales diarios españoles: Prisa, Vocento, etc).

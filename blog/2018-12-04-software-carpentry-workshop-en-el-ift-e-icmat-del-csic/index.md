@@ -12,7 +12,7 @@ tags:
   - "open-source-es"
   - "software-es"
   - "workshop"
-title-block-banner: url(images/46090008341_88d176af25_o.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/46090008341_88d176af25_o.jpg) 50% 50% 
 image: images/46090008341_88d176af25_o.jpg
 lightbox: true
 ---

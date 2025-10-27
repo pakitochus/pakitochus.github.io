@@ -8,6 +8,9 @@ categories:
 tags: 
   - "comunicacion"
   - "humor-es"
+title-block-banner: var(--bs-primary) url(images/30516566_2057254307851929_1634744499378847744_o.jpg) 50% 50% 
+image: images/30516566_2057254307851929_1634744499378847744_o.jpg
+lightbox: true
 ---
 
 Pues resulta que finalmente he pasado a la final de **Famelab**, el concurso de monólogos científicos por antonomasia. Fíjate que nunca pensé hacer un monólogo (y mucho menos científico), pero tras la insistencia de **Carlos Centeno**, aquí estoy, y ¡hemos venido a jugar!
@@ -16,10 +19,14 @@ Así que estoy muy honrado de estar entre los ocho finalistas, y a los que se qu
 
 Y para el que le interese, este es mi monologuillo:
 
-https://www.youtube.com/watch?v=4xaPxNPr43w
+{{< video https://www.youtube.com/watch?v=4xaPxNPr43w >}}
 
-- ![](images/30442443_2057666084477418_8640889998100398080_n.jpg)
-    
-- ![](images/30516100_2057665707810789_1230856379137261568_n.jpg)
-    
-- ![](images/30516566_2057254307851929_1634744499378847744_o.jpg)
+::: {layout-ncol=3} 
+
+![](images/30442443_2057666084477418_8640889998100398080_n.jpg)
+
+![](images/30516100_2057665707810789_1230856379137261568_n.jpg)
+
+![](images/30516566_2057254307851929_1634744499378847744_o.jpg)
+
+:::

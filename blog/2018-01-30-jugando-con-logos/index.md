@@ -13,7 +13,7 @@ tags:
   - "musicales"
   - "pep-ventura"
   - "web"
-title-block-banner: url(images/Captura-de-pantalla-de-2017-10-03-13-05-31.png) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/Captura-de-pantalla-de-2017-10-03-13-05-31.png) 50% 50% 
 image: images/Captura-de-pantalla-de-2017-10-03-13-05-31.png
 lightbox: true
 ---

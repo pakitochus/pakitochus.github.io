@@ -8,6 +8,8 @@ tags:
   - "docencia"
   - "podcast-es"
   - "redes-neuronales-es"
+title-block-banner: var(--bs-primary) url(images/podcast_imagen.png) 50% 50% 
+image: images/podcast_imagen.png
 ---
 
 ![](images/podcast_imagen.png)
@@ -22,4 +24,4 @@ Este es el enlace para descargar: [https://www.ivoox.com/47414116](https://www.i
 
 Y también hemos preparado un vídeo inspiracional:
 
-https://www.youtube.com/watch?v=gWw88W7fn54
+{{< video https://www.youtube.com/watch?v=gWw88W7fn54 >}}

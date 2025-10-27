@@ -15,7 +15,7 @@ tags:
   - "recortable"
   - "ugears"
   - "zanfona"
-title-block-banner: url(images/IMG_20171103_184845_HHT.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/IMG_20171103_184845_HHT.jpg) 50% 50% 
 image: images/IMG_20171103_184845_HHT.jpg
 lightbox: true
 ---

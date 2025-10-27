@@ -14,7 +14,7 @@ tags:
   - "telecomunicaciones"
   - "videos"
   - "youtube"
-title-block-banner: url(images/channels4_banner.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/channels4_banner.jpg) 50% 50% 
 image: images/channels4_banner.jpg
 ---
 

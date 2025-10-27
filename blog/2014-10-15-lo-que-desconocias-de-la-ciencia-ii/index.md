@@ -9,7 +9,7 @@ tags:
   - "pseudociencia-es"
   - "research-es"
 coverImage: "falsabilidad.jpg"
-title-block-banner: url(images/falsabilidad.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/falsabilidad.jpg) 50% 50% 
 ---
 
 En el post anterior veíamos como [el método científico provee de las herramientas](http://fjesusmartinez.wordpress.com/2014/10/02/lo-que-desconocias-de-la-ciencia-i/ "Lo que desconocías de la ciencia (I)") para describir de la forma más precisa los fenómenos naturales, no para descubrir una **Verdad** con mayúsculas en un sentido filosófico o místico.

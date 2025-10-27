@@ -10,7 +10,7 @@ tags:
   - "transporte-es"
 coverImage: "images/train.jpg"
 lightbox: true
-title-block-banner: url(images/train.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/train.jpg) 50% 50% 
 ---
 
 Razón no les falta a estos británicos cuando dicen que su red de transportes es muy extensa y tienen para todos los gustos. Tampoco les quitaré el mérito de tener una red de ferrocarriles muy buena (por cierto, aquí no es "Train Station", sino "Rail Station".. y tampoco dicen "Buses" sino "Coaches", salvo excepciones... muchos años de aprender inglés a la basura). Pero sin lugar a dudas, los mayores líos vienen por la liberalización de los transportes.

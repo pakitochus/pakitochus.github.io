@@ -11,7 +11,7 @@ tags:
   - "otono-es"
   - "paisajes-es"
 coverImage: "dsc_2144.jpg"
-title-block-banner: url(images/dsc_2144.jpg) 50% 50% 
+title-block-banner: var(--bs-primary) url(images/dsc_2144.jpg) 50% 50% 
 image: images/dsc_2144.jpg
 ---
 

@@ -10,6 +10,7 @@ tags:
   - "inteligencia-artificial"
   - "machine-learning"
   - "monologo-es"
+coverImage: "69645498_2188737551401226_816921179339096064_o.jpg"
 ---
 
 Siempre es un placer que me inviten a saraos, pero ya que lo hagan como "invited speaker" son palabras mayores. Y eso es lo que me pidieron para el [XX ENEM Granada](http://enemgranada.anemat.com). Que llegara y soltara una sarta de mis chominaicas. Y encima de las tablas, frente a cientos de estudiantes y post-estudiantes de matemáticas de todo el país.
@@ -18,9 +19,7 @@ Siempre es un placer que me inviten a saraos, pero ya que lo hagan como "invited
 
 ¿El reto? Hablar de machine learning a gente que tiene unos conocimientos y una base de matemáticas significativamente superior a la mía. Pero también desde una perspectiva divulgativa.
 
-![](images/69090871_2188735534734761_2288422828019548160_o-1024x683.jpg)
-
-![](images/68859587_2188738364734478_3682381079848681472_o-1024x576.jpg)
+![](images/69090871_2188735534734761_2288422828019548160_o-1024x683.jpg)![](images/68859587_2188738364734478_3682381079848681472_o-1024x576.jpg)
 
 ![](images/69455314_2188735061401475_9134475409352556544_o-1024x683.jpg)
 
