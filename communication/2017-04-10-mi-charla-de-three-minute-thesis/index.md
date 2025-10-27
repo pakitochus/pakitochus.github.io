@@ -14,4 +14,4 @@ tags:
   - "three-minute"
 ---
 
-https://www.youtube.com/watch?v=jAu\_Gj3oMAU
+{{< video https://www.youtube.com/watch?v=jAu_Gj3oMAU >}}
