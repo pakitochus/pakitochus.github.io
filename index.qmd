@@ -10,15 +10,16 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/fjesusmartinez/
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/pakitochus
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/pakitochus.bsky.social
     - text: GitHub
       icon: github
       href: https://github.com/pakitochus
     - icon: envelope
       text: Email
       href: mailto:fjesusmartinez@ugr.es
+
 ---
 
 
@@ -26,19 +27,30 @@ Telecommunications Engineer and PhD in Information and Communication Technologie
 
 ---
 
-## Education
-- **Telecommunications Engineer** (2010) | [University of Granada](https://www.ugr.es)
-- **MsC in Computer and Network Engineering** (2011) | [University of Granada](https://www.ugr.es)
-- **PhD in Information and Communications Technology** (2017) | [University of Granada](https://www.ugr.es)
+## Education {.fancylist}
+- **Telecommunications Engineer**, **2005-2010**  
+  [*University of Granada*](https://www.ugr.es), Spain
+- **MsC in Computer and Network Engineering**, **2010-2011**  
+  [*University of Granada*](https://www.ugr.es), Spain
+- **PhD in Information and Communications Technology**, **2014-2017**  
+  [*University of Granada*](https://www.ugr.es), Spain
 
 ---
 
-## Experience
-- **Ramon y Cajal** fellow (2023 - ) | [University of Granada](https://www.ugr.es)
-- **CAS Research Group Fellow** (2023 - 2024) | [Ludwig-Maximilien Universität München](https://www.lmu.de/en/)
-- **Juan de la Cierva – incorporación** fellow (2020-2022) | [University of Granada](https://www.ugr.es)
-- **Jose Castillejo** fellow (2019) | [Ludwig-Maximilien Universität München](https://www.lmu.de/en/)
-- **Juan de la Cierva – formación** fellow (2019-2020) | [University of Malaga](https://www.uma.es)
-- **Postdoctoral researcher** (2018-2019) | [DaSCI – Andalusian Institute on Data Science and Computational Intelligence](https://www.dasci.es)
-- **Predoctoral researcher** (2014-2017) | [University of Granada](https://www.ugr.es)
-- **Website manager, front-end development** (2010-2011) | Language4you education S.L. 
+## Experience {.fancylist}
+- **Ramon y Cajal** fellow, **2023-**  
+  [*University of Granada*](https://www.ugr.es), Spain
+- **CAS Research Group Fellow**, **2023-2024**  
+  [*Ludwig-Maximilien Universität München*](https://www.lmu.de/en/), Germany
+- **Juan de la Cierva – incorporación** fellow, **2020-2022**  
+  [*University of Granada*](https://www.ugr.es), Spain
+- **Jose Castillejo** fellow, **2019**  
+  [*Ludwig-Maximilien Universität München*](https://www.lmu.de/en/), Germany
+- **Juan de la Cierva – formación** fellow, **2019-2020**  
+  [*University of Malaga*](https://www.uma.es), Spain
+- **Postdoctoral researcher**, **2018-2019**  
+  [*DaSCI – Andalusian Institute on Data Science and Computational Intelligence*](https://www.dasci.es), Spain
+- **Predoctoral researcher**, **2014-2017**  
+  [*University of Granada*](https://www.ugr.es), Spain
+- **Website manager, front-end development**, **2010-2011**  
+  [*Language4you education S.L.*](https://www.language4you.com/), Spain
