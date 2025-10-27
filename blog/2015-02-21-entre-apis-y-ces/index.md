@@ -21,8 +21,10 @@ Tras darle muchísimas vueltas, por fin conseguí hacer una clase, que llamé St
 
 Así que esto es lo que he hecho, por si a alguien le hace falta (basado en [este post de StackOverflow](http://stackoverflow.com/questions/26126160/redirecting-standard-out-in-err-back-after-os-dup2)):
 
-\[code lang=python\] class StdoutHandler(object): def \_\_init\_\_(self, f): """Create new stdouthandler, for management of stdin and stdout (some methods of Synth DO need to capture stdout stream). """ self.prevOutFd = os.dup(1) self.prevInFd = os.dup(0) self.prevErrFd = os.dup(2) self.newf = open(f, 'w') self.newfd = self.newf.fileno() # The new file output
+```python
+class StdoutHandler(object): def __init__(self, f): """Create new stdouthandler, for management of stdin and stdout (some methods of Synth DO need to capture stdout stream). """ self.prevOutFd = os.dup(1) self.prevInFd = os.dup(0) self.prevErrFd = os.dup(2) self.newf = open(f, 'w') self.newfd = self.newf.fileno() # The new file output
 
 def freopen(self): """ Redirects the standard input, output and error stream to the established newfd. :return: """ os.dup2(self.newfd, 0) os.dup2(self.newfd, 1) os.dup2(self.newfd, 2)
 
 def freclose(self): """ Closes the modified input, output and error stream :return: """ self.newf.close() os.dup2(self.prevOutFd, 1) os.close(self.prevOutFd) os.dup2(self.prevInFd, 0) os.close(self.prevInFd) os.dup2(self.prevErrFd,2) os.close(self.prevErrFd) \[/code\]
+```

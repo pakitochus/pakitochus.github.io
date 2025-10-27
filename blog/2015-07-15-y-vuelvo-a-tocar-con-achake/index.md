@@ -15,4 +15,4 @@ Ya toque con ellos una vez, y también grabando disco. Esta noche repetirán, y 
 
 Mientras, os dejo con la presentación:
 
-https://www.youtube.com/watch?v=EvN48xDXidU
+{{< video https://www.youtube.com/watch?v=EvN48xDXidU >}}

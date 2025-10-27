@@ -13,6 +13,9 @@ tags:
   - "musicales"
   - "pep-ventura"
   - "web"
+title-block-banner: url(images/Captura-de-pantalla-de-2017-10-03-13-05-31.png) 50% 50% 
+image: images/Captura-de-pantalla-de-2017-10-03-13-05-31.png
+lightbox: true
 ---
 
 Desde hace tiempo me encargo de parte del diseño gráfico de la [asociación Musicalarte](http://www.asociacionmusicalarte.com), ahora responsabilidad compartida con mi querido Juanemi. Durante el proceso de diseño de algunos carteles, me he encontrado todo tipo de logos de patrocinadores o colaboradores. Particularmente, en el último concierto que dimos con la Asociación Musical Pep Ventura, su logo me dio algún quebradero de cabeza, por su orientación vertical y tipografía delgada. Aquí el logo original:

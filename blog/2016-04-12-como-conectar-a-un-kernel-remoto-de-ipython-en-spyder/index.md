@@ -17,11 +17,15 @@ Bueno, pues hoy os voy a contar como utilizar **Spyder** para conectarse a un **
 
 Para lanzar el kernel en el servidor, el proceso dependerá de cómo estemos habituados a realizar la conexión. Normalmente yo recomiendo utilizar \`ssh\` para la conexión por su seguridad y porque es la que utiliza el propio Spyder. En cualquier caso, utilizando ssh, la conexión se realizaría:
 
+```bash
 ssh usuario@servidor
+```
 
 Tras conectar al servidor, lanzamos un kernel de IPython (para ello debemos tener instalado Python e IPython en el servidor) con el comando:
 
+```bash
 ipython kernel
+```
 
 Tras lanzar el kernel nos aparece un texto parecido a esto:
 
@@ -35,7 +39,10 @@ Para conectarse al kernel existente, debemos descargarnos el archivo kernel-1747
 
 **EDIT**: si no se localiza, se puede acceder a la ruta donde están los kernel mediante el comando:
 
+```bash
 jupyter --runtime-dir
+
+```
 
 Una vez que estemos en esa carpeta y nos hayamos descargado el archivo kernel-xxx.json, lo copiamos en un directorio de nuestra máquina local y abrimos  Spyder.
 
@@ -49,6 +56,8 @@ Una vez allí, seleccionamos el archivo .json que hemos descargado al principio 
 
 Es importante notar que el kernel no se puede cerrar desde la terminal SSH, sino que debemos hacerlo desde nuestra máquina local. Para terminar la ejecución del kernel, escribimos en la terminal de Ipython:
 
+```bash
 exit()
+```
 
 Y así se cierra del todo.

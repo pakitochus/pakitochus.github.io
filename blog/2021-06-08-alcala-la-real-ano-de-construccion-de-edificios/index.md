@@ -11,6 +11,7 @@ tags:
   - "map"
   - "mapa"
   - "mapping"
+title-block-banner: url(images/Alcala_visualizacion.jpg) 50% 50% 
 ---
 
 Hace tiempo vi los mapas que creaba Dominic Royé sobre edad de construcción de edificios, y para los que generó el [tutorial de mapas en R](https://dominicroye.github.io/en/2019/visualize-urban-growth/).

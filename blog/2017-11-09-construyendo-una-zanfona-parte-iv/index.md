@@ -15,8 +15,24 @@ tags:
   - "recortable"
   - "ugears"
   - "zanfona"
+title-block-banner: url(images/IMG_20171104_102237_HHT.jpg) 50% 50% 
+image: images/IMG_20171104_102237_HHT.jpg
+lightbox: true
 ---
 
 El clavijero, mástil y mecanismo
 
-\[gallery ids="671,672,673,674,675"\]
+::: {layout-ncol=3}
+
+![](images/IMG_20171104_095324_HHT.jpg) 
+
+![](images/IMG_20171104_095350_HHT.jpg) 
+
+![](images/IMG_20171104_100858_HHT.jpg) 
+
+![](images/IMG_20171104_101920_HHT.jpg) 
+
+![](images/IMG_20171104_102237_HHT.jpg) 
+
+
+:::

@@ -14,8 +14,23 @@ tags:
   - "recortable"
   - "ugears"
   - "zanfona"
+title-block-banner: url(images/IMG_20171103_193737_HHT.jpg) 50% 50% 
+image: images/IMG_20171103_193737_HHT.jpg
+lightbox: true
 ---
 
 Calibrando el puente, el mecanismo de la rueda y cubriendo la caja.
 
-\[gallery ids="664,665,666,667,668"\]
+
+::: {layout-ncol=3}
+![](images/IMG_20171103_190120_HHT.jpg) 
+
+![](images/IMG_20171103_190123_HHT.jpg) 
+
+![](images/IMG_20171103_193009_HHT.jpg) 
+
+![](images/IMG_20171103_193259_HHT.jpg) 
+
+![](images/IMG_20171103_193737_HHT.jpg) 
+
+:::

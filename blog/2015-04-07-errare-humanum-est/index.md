@@ -14,6 +14,7 @@ tags:
   - "platon-es"
   - "software-es"
   - "tecnica-es"
+coverImage: "antares-autotune-7_2.jpg"
 ---
 
 Errar es humano. O mejor aún, es errar lo que nos hace humanos. Toda una amalgama de errores que se concatenan, y que inundan cada rincón de nuestra vida: desde olvidar donde pone uno las llaves hasta fallos de ejecución en una obra musical, pasando por sesgos cognitivos e incoherencias internas que son las que nos dan poco a poco la vidilla, y la razón para pensar.

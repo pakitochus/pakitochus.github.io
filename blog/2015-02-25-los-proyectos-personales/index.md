@@ -9,6 +9,7 @@ tags:
   - "free-culture-es"
   - "hobbies-es"
   - "proyectos-es"
+coverImage: "blog.jpg"
 ---
 
 Esto es una reflexión un tanto manida, pero de la que uno se da cuenta de vez en cuando. Cuando inicias un proyecto personal, por el mero hecho de hacer algo nuevo por ti mismo, con tus manos, ya sea un armario de Ikea o un theremin casero, no estás perdiendo el tiempo. La gente hablará, dirán que "cuánto tiempo libre tiene ese tío", aunque seas el más ocupado del mundo. Tú mismo llegarás a creerte que estás perdiendo el tiempo.

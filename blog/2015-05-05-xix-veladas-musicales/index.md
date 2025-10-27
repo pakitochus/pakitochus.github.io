@@ -10,7 +10,7 @@ tags:
   - "veladas-musicales-es"
 ---
 
-[![xIX Veladas Musicales de la ETSIIT](http://www.fjmartinezmurcia.es/wp-content/uploads/2015/05/11037709_10204133172434230_2614119548077371056_n.jpg?w=660)](http://www.fjmartinezmurcia.es/wp-content/uploads/2015/05/11037709_10204133172434230_2614119548077371056_n.jpg)
+![XIX Veladas Musicales de la ETSIIT](images/11037709_10204133172434230_2614119548077371056_n.jpg)
 
 Están siendo unas semanas muy intensivas de trabajo, pero siempre hay rato para la música. Particularmente, en este caso, nuestro estreno (de moza y mío) como pareja en los escenarios: **Acoplados** (a couple), en las **XIX Veladas Musicales de la ETSIIT**.
 

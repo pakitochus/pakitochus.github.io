@@ -14,7 +14,7 @@ tags:
   - "voz-es"
 ---
 
-https://www.youtube.com/playlist?list=PL71zZgXa3aTxJqQyl3tyWrZjRhLs3s11\_
+{{< video https://www.youtube.com/playlist?list=PL71zZgXa3aTxJqQyl3tyWrZjRhLs3s11_ >}}
 
 Ha sido un fin de semana de vértigo. Quizá ahora, cuando ya las aguas vuelven a su cauce, hay más tiempo para la reflexión. Siempre he pensado que la música une a las personas como ninguna otra cosa puede. Quizá es porque la música toca al ser humano en muchos niveles, que van desde lo consciente hasta el alma misma. Quizá porque en un escenario, aunque interpretes un papel, estás desnudo, junto a una panda de locos que también desnudan su alma, y que entregan lo mejor de si mismos a una audiencia que va a aprender más de tí que cualquier red social (a ver si superas eso, Google).
 

@@ -1,17 +1,35 @@
 ---
 title: "Publications"
+format:
+  html:
+    include-in-header:
+      - file: "_includes/parse_doi.html"
+      - text: |
+          <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    include-after-body: 
+      text: |
+          <script type='text/javascript' src='https://embed.altmetric.com/assets/embed.js'></script>
 listing:
   - id: pubs
-    template: _ejs/publications.ejs
     contents: publications/**/*.qmd
-    sort: "pub_number desc"
-    page-size: 30
+    type: table
+    fields: [image, year, author, title, publication]
+    page-size: 15
     filter-ui: true
-    fields: [image, pub_number, title, publication, author,url_source]
+    sort: "year desc"
+    sort-ui: [title, author, publication, year]
+    image-height: 30px
+    field-display-names: 
+        title: "Title"
+        author: "Authors"
+        publication: "Journal"
+        funder: "Funder"
+        year: "Year"
+        doi: "Metrics"
 page-layout: full
 ---
 
 <hr>
 
-:::{#pubs}
+::: {#pubs}
 :::

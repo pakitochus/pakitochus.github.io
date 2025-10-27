@@ -11,7 +11,7 @@ tags:
 
 Y ya está aquí, por fin, el videoclip de Monos en el Espacio. La última aventura en la que tomé parte junto a [Anima Adversa](http://www.animaadversa.es "Anima Adversa"). Y como una imagen vale más que mil palabras, aquí va:
 
-https://www.youtube.com/watch?v=9ru\_jC1h32Q
+{{< video https://www.youtube.com/watch?v=9ru_jC1h32Q >}}
 
 El vídeo ha tenido infinidad de detalles, ha tardado más de un año en ver la luz (la primera reunión de concepto fue en Enero de 2013), y ha salido adelante gracias a las ganas, esfuerzo y amor al arte de una gran cantidad de gente.
 

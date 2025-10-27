@@ -17,15 +17,18 @@ tags:
   - "pib"
   - "proyecto"
   - "research-es"
+title-block-banner: url(images/2019-07-06-20.52.48.jpg) 50% 50% 
+image: images/2019-07-06-20.52.48.jpg
+lightbox: true
 ---
 
 Esta semana he llegado a Munich. Concretamente a la Ludwig-Maximilien Universität München, gracias a la convocatoria nacional de ayudas para la movilidad internacional de jóvenes investigadores "José Castillejo". Al margen de los [problemas con la carrera científica en España](https://www.fjmartinezmurcia.es/2019/07/la-movilidad-internacional-y-el-sistema-cientifico-espanol/), sólo puedo estar agradecido tanto al ministerio de Ciencia como -sobre todo- a mi grupo de investigación por haber conseguido esta ayuda para venir aquí a realizar un proyecto muy, pero que muy, interesante.
 
+::: {layout-ncol=3}
+
 ![](images/2019-07-03-15.42.45.jpg)
 
-![](images/2019-07-03-18.50.06.jpg)
-
-![](images/2019-07-03-21.41.15.jpg)
+![](images/2019-07-03-18.50.06.jpg)![](images/2019-07-03-21.41.15.jpg)
 
 ![](images/2019-07-04-18.56.21.jpg)
 
@@ -40,6 +43,8 @@ Esta semana he llegado a Munich. Concretamente a la Ludwig-Maximilien Universit�
 ![](images/2019-07-06-18.39.52.jpg)
 
 ![](images/2019-07-06-20.52.48.jpg)
+
+:::
 
 ¡Oh! ¡Qué intriga! ¿Qué proyecto es? Pues, para volver al redil del **Alzheimer**, me vengo a Múnich porque es uno de los centros de referencia europeos de la _Dominantly Inherited Alzheimer Network_ ([DIAN](https://dian.wustl.edu)), una iniciativa destinada a estudiar el Alzheimer hereditario. Al diferencia de lo que mucha gente cree, esta variedad de Alzheimer afecta tan solo a un 1%, pero sus efectos son devastadores. La afección se debe a ciertas variedades de los genes PSEN1, PSEN2 o APP que pasan de padres a hijos con un 50% de probabilidad, provocando que se desarrolle la enfermedad de Alzheimer muy temprano, entre los 30 y los 50 años. Podéis saber más sobre el Alzheimer hereditario en uno de los [vídeos divulgativos de DIAN](https://dian.wustl.edu/about/what-is-diad/).
 

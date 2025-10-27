@@ -15,8 +15,21 @@ tags:
   - "recortable"
   - "ugears"
   - "zanfona"
+title-block-banner: url(images/IMG_20171103_184845_HHT.jpg) 50% 50% 
+image: images/IMG_20171103_184845_HHT.jpg
+lightbox: true
 ---
 
 Preparando la caja y el mecanismo de la rueda.
 
-\[gallery ids="660,659,658,657"\]
+::: {layout-ncol=3}
+
+![](images/IMG_20171103_184845_HHT.jpg)
+
+![](images/IMG_20171103_184849_HHT.jpg)
+
+![](images/IMG_20171103_184853_HHT.jpg)
+
+![](images/IMG_20171103_184858.jpg)
+
+:::

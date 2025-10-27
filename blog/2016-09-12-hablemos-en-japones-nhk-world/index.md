@@ -9,6 +9,9 @@ tags:
   - "podcast-es"
   - "rss-es"
   - "web-scraping-es"
+image: images/lp_overview.jpg
+lightbox: true
+title-block-banner: url(images/lp_overview.jpg) 50% 50% 
 ---
 
 El título de esta entrada es también el título de un [curso de Japonés para españoles](http://www.nhk.or.jp/lesson/spanish/) ofrecido por la **NHK World** (la radio pública japonesa). Estos días, con motivo de mi viaje próximo a Japón, tenía intención de escuchar algo para ir haciendo oído. Sin embargo, me topé con que el feed RSS de la página oficial no listaba mas que el último capítulo, de los 48. De modo que ni corto ni perezoso me puse manos a la obra para intentar crear un feed que contuviera todos los episodios usando web scraping.
@@ -17,6 +20,6 @@ Tras muchas vueltas, di con un plugin para Chrome (y por ende, para Opera), llam
 
 Aquí el enlace, para quien le pueda servir:
 
-http://feeds.feedburner.com/hablemosJapones
+[http://feeds.feedburner.com/hablemosJapones](http://feeds.feedburner.com/hablemosJapones)
 
 Espero que os sirva. Un saludo!

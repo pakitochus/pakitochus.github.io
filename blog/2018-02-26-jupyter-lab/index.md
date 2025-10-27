@@ -11,13 +11,16 @@ tags:
   - "ipython-es"
   - "jupyter-es"
   - "python-es"
+title-block-banner: url(images/Captura-de-pantalla-de-2018-02-26-13-39-22.png) 50% 50% 
+image: images/Captura-de-pantalla-de-2018-02-26-13-39-22.png
+lightbox: true
 ---
 
 Hace un par de semanas se anunció que [Jupyter Lab ya está preparado para su uso](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906) (aunque todavía en beta). Como no poda ser de otra forma, y presa del ansia viva, fui corriendo a descargar, instalar y probarlo. Pero, ¿qué es Jupyter Lab?
 
 Jupyter es bastante conocido en la comunidad python, desde que hace años apareciese como la evolución de los iPython notebooks, una interfaz amigable de crear "historias" en python, combinando celdas de código y documentación en markdown de una forma muy visual. Desde entonces ha llovido mucho, y, aunque me resultan todavía un poco lentos para trabajar en investigación, sí que [los uso en docencia](https://github.com/pakitochus/practicas-RI), con bastante buenos resultados.
 
-\[caption id="attachment\_746" align="alignnone" width="525"\]![](images/Captura-de-pantalla-de-2018-02-26-13-39-22-1024x582.png) Interfaz de Jupyter Lab\[/caption\]
+![Interfaz de Jupyter Lab](images/Captura-de-pantalla-de-2018-02-26-13-39-22-1024x582.png)
 
 Pues bien, Jupyter Lab es una mezcla de Jupyter + [Spyder](http://wpd.ugr.es/~fjesusmartinez/es/2016/04/como-conectar-a-un-kernel-remoto-de-ipython-en-spyder/). Un nuevo IDE basado en web que permite un trabajo bastante cómodo y que, por primera vez, me ha hecho plantearme un nuevo cambio. Tiene edición de código con resaltado, posibilidad de ejecución de varias terminales (kernels de ipython), software inspector y visualización embebida.
 

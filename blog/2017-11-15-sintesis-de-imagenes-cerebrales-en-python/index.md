@@ -15,6 +15,9 @@ tags:
   - "sintesis"
   - "sipba"
   - "ugr-es"
+image: images/schema-1024x389.jpg
+lightbox: true
+title-block-banner: url(images/schema-1024x389.jpg) 50% 50% 
 ---
 
 Acabamos de publicar un nuevo trabajo en _Frontiers in Neuroinformatics_, en el que probamos el nuevo método que hemos desarrollado para aumentar datos y estandarizar los métodos de evaluación de diferentes sistemas [CAD](https://en.wikipedia.org/wiki/Computer-aided_diagnosis) en neuroimagen. Podéis leer el artículo [aquí:](https://www.frontiersin.org/articles/10.3389/fninf.2017.00065/full)

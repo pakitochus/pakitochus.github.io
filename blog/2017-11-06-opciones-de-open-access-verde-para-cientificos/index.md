@@ -12,6 +12,9 @@ tags:
   - "open-science"
   - "open-source-es"
   - "research-es"
+image: images/OAlogo-300x108.jpg
+lightbox: true
+title-block-banner: url(images/OAlogo-300x108.jpg) 50% 50% 
 ---
 
 Es interesante como a menudo se desconocen las opciones del llamado _green open access_ a la hora de publicar investigación en Internet. Esto se debe, en parte, al interés por fomentar el _gold open access_ (también llamado _paid open access_), que es aquel por el que las editoriales cobran entre cientos y miles de euros para licenciar el trabajo de los científicos como acceso abierto.

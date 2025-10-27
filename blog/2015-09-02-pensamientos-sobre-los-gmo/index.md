@@ -24,4 +24,4 @@ La vaca y toro vienen del **Uro**, su equivalente salvaje, gracias a la modifica
 
 Por lo que la pregunta no es si los GMO son buenos o malos. Es tarde para ello, llevamos toda la vida consumiéndolos. La cuestión es: ¿qué es mejor, un organismo al que se le han modifcado solamente las características deseadas o un organismo cruzado que almacena mutaciones unas detrás de otras sin ningún control? Porque eso, amigo, son los tomates que te estás comiendo.
 
-Y para terminar, un poco de luz sobre las razas de los perros, y los peligros de la selección artficial: https://www.youtube.com/watch?v=S5aJ9R6wUn4
+Y para terminar, un poco de luz sobre las razas de los perros, y los peligros de la selección artficial: {{< video https://www.youtube.com/watch?v=S5aJ9R6wUn4 >}}
