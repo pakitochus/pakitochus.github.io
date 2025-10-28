@@ -65,11 +65,11 @@ td > span.listing-container-title{
 }
 
 .fancylist section.level2 ul li p em{
-  color: rgba(var(--bs-secondary-color-rgb), 0.7);/*rgba(51,51,51,.7)*/
+  color: rgba(var(--bs-secondary-color-rgb), var(--bs-bg-opacity));/*rgba(51,51,51,.7)*/
 }
 
 .fancylist ul li{
-  background-color: rgba(var(--bs-secondary-color-rgb), 0.02);/*rgba(51,51,51,.02);*/
+  background-color: rgba(var(--bs-tertiary-bg-rgb), 0.02);/*rgba(51,51,51,.02);*/
   border-left: 2px solid rgba(var(--bs-secondary-color-rgb), 0.15);/*rgba(51,51,51,.15);*/
   border-radius: 0 6px 6px 0;
   padding: 1rem 1rem 1rem 2rem
