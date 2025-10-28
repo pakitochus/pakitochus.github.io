@@ -11,7 +11,7 @@ date: 09-01-2023
 categories: [python, project] # self-defined categories
 citation: 
   url: https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/
-image: latidos_logo.png
+image: latidos_logo_featured.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 bibliography: latidos_bibliography.bib
 ---
