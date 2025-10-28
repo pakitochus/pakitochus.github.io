@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2018-04-02">
+<meta name="author" content="F.J. Martinez-Murcia">
+<meta name="dcterms.date" content="2025-04-01">
+<meta name="description" content="Machine Learning to study Music and Language in the Brain.">
 
-<title>Conoce a los #Famelabers – F.J. Martinez-Murcia</title>
+<title>ML2BRAIN – F.J. Martinez-Murcia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -46,6 +48,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-8f8e78f48c0a8e4a690fb36943a29ae6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark-5b06372d08d6239eb937c4930398222c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../../site_libs/bootstrap/bootstrap-8f8e78f48c0a8e4a690fb36943a29ae6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background: var(--bs-primary) url(images/Captura-de-pantalla-de-2019-03-11-12-23-28.png) 50% 50%;
+        background: var(--bs-primary) url(overview_methodology.png) no-repeat center center / cover;
       }
 </style>
 
@@ -300,23 +304,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Conoce a los #Famelabers</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">ciencia</div>
-                <div class="quarto-category">divulgacion</div>
+    <div class="quarto-title column-page-left">
+      <h1 class="title">ML2BRAIN</h1>
+                  <div>
+        <div class="description">
+          Machine Learning to study Music and Language in the Brain.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">project</div>
               </div>
                   </div>
   </div>
     
-  
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta-author column-page-left">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://fjmartinezmurcia.es/">F.J. Martinez-Murcia</a> <a href="https://orcid.org/0000-0001-8146-7056" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://dasci.es/">
+              Dpt. of Signal Theory, Networking and Communications. University of Granada &amp; DaSCI.
+              </a>
+            </p>
+        </div>
+    </div>
 
-      
+  <div class="quarto-title-meta column-page-left">
+
+        
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">April 2, 2018</p>
+        <p class="date">April 1, 2025</p>
       </div>
     </div>
     
@@ -327,24 +351,103 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-project" id="toc-the-project" class="nav-link active" data-scroll-target="#the-project">The project</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
+  <ul class="collapse">
+  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications:</a></li>
+  <li><a href="#talks" id="toc-talks" class="nav-link" data-scroll-target="#talks">Talks</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  </ul></li>
+  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
 
 
-<p>Este domingo, a iniciativa (y gracias a) nuestra anfitriona y compañera <a href="http://twitter.com/LauraMParro">Laura Parro</a>, de <a href="http://twitter.com/VxPlanetas">Viajando por Planetas</a>, nos juntamos en un directo de Youtube parte de los semifinalistas de Famelab 2018, para hablar sobre divulgación, ciencia, monólogos y muchas más cosas. Con la propia Laura, <a href="http://twitter.com/MarinaSanzM">Marina</a>, <a href="http://twitter.com/Charls_Fox">Carlos</a>, <a href="http://twitter.com/SdeStendhal">Ignacio</a>, <a href="http://twitter.com/cuatrodiezydos">Jose Luis</a>, <a href="http://twitter.com/iufala">Eder</a> y <a href="http://twitter.com/DanielCoinVolee">Dani</a>. No os lo podéis perder!</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/etYogFENvM0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p></p><div id="tweet-12111"></div><script>tweet={"url":"https:\/\/twitter.com\/VxPlanetas\/status\/980541101542125569","author_name":"Viajando por Planetas","author_url":"https:\/\/twitter.com\/VxPlanetas","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"es\" dir=\"ltr\"\u003EMil gracias a \u003Ca href=\"https:\/\/twitter.com\/MarinaSanzM?ref_src=twsrc%5Etfw\"\u003E@MarinaSanzM\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/pakitochus?ref_src=twsrc%5Etfw\"\u003E@pakitochus\u003C\/a\u003E @Charls_Fox \u003Ca href=\"https:\/\/twitter.com\/SdeStendhal?ref_src=twsrc%5Etfw\"\u003E@SdeStendhal\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/cuatrodiezydos?ref_src=twsrc%5Etfw\"\u003E@cuatrodiezydos\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/iufala?ref_src=twsrc%5Etfw\"\u003E@iufala\u003C\/a\u003E y @DanielCoinVolee por acompañarme en el directo de hoy \uD83D\uDE01 ha sido ESPECTACULAR! \u003Cbr\u003ENo dejéis de verlo porque hemos hablado de cosas súper interesantes!\u003Ca href=\"https:\/\/t.co\/rRdZRoA7kE\"\u003Ehttps:\/\/t.co\/rRdZRoA7kE\u003C\/a\u003E\u003C\/p\u003E&mdash; Viajando por Planetas (@VxPlanetas) \u003Ca href=\"https:\/\/twitter.com\/VxPlanetas\/status\/980541101542125569?ref_src=twsrc%5Etfw\"\u003EApril 1, 2018\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-12111").innerHTML = tweet["html"];</script><p></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="overview_methodology.png" class="img-fluid figure-img"></p>
+<figcaption>Overview of the ML2BRAIN methodology</figcaption>
+</figure>
+</div>
+<p><strong>ML2BRAIN</strong> is a project aimed at investigating the complex interplay between music and language perception in the human brain.</p>
+<!--[ Documentation](http://mapbrain.readthedocs.io/en/latest/quickstart.html){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Read the documentation"}
+[ Download](https://github.com/SiPBA/mapBrain){.btn .btn-primary .btn role="button" data-toggle="tooltip" title="Download the package"}-->
+<section id="the-project" class="level1">
+<h1>The project</h1>
+<p>The <strong>ML2BRAIN</strong> project aims to investigate the complex interplay between music and language perception in the human brain. Using EEG as the primary technique, research will seek to overcome the limitations of traditional EEG analysis by combining innovative methods, including explicable machine learning and bio-inspired models, to provide new insights into how the brain responds to auditory stimuli in music and language. The objectives of the study include investigating brain patterns associated with language and music processing, developing interpretable machine learning algorithms for EEG data analysis, evaluating and improving feature extraction methods, and communicating the results to the scientific community and the public. In particular, traditional and advanced EEG feature extraction methods will be evaluated, including recent cross-frequency coupling measurements and models based on neural field theory. Both generative artificial intelligence and bio-inspired models will be used to address the challenges of EEG signal processing and analysis. Generative AI will be used to build data-driven representations of the latent spaces underlying EEG data, as well as for brain decoding of stimulus parameters and/or signals. Bio-inspired algorithms such as spiking and oscillatory neural networks will be trained to model the brain’s behaviour under language and music stimuli. In all these cases, interpretability will be key, as Explainable Artificial Intelligence (XAI) should be at the heart of any science-based research.</p>
+<p>The expected outcomes of the ML2BRAIN project are twofold. First, the research will reveal specific brain patterns, activations and oscillatory dynamics associated with language and music processing. Second, the interpretable machine learning and bio-inspired algorithms developed are expected to provide accurate predictions of rhythm and pitch variables from EEG data, thus providing a deeper understanding of the neural processes involved in auditory perception. The potential impact of the project is significant, contributing to the advancement of neuroscience research, the open-source accessibility of advanced EEG analysis techniques, and a better understanding of brain processing in language and music. The impact of the research extends beyond neuroscience, encouraging interdisciplinary collaboration between neuroscience researchers and machine learning experts. The project’s open source code and implementations will make advanced EEG analysis techniques available to researchers worldwide, facilitating their adoption in diverse research settings. The interdisciplinary nature of the project will strengthen and diversify the research activities of the host institution and foster collaborations with leading international research groups.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="examples.png" class="img-fluid figure-img"></p>
+<figcaption>Examples of EEG data and analysis proceduures</figcaption>
+</figure>
+</div>
+</section>
+<section id="objectives" class="level1">
+<h1>Objectives</h1>
+<p>ML2BRAIN has one general objective: <strong>to develop new machine learning techniques for EEG analysis that facilitate the understanding of how the brain perceives language and music</strong>. This can be realized by achieving the following specific objectives:</p>
+<ol type="1">
+<li>To study specific <strong>patterns</strong>, <strong>activations</strong>, and <strong>oscillatory dynamics</strong> that are indicative of the brain’s processing of language and music. This will be mainly based in the analysis of already acquired data (e.g.&nbsp;OpenNeuro ds004356) as well as collecting EEG data from participants performing different language and music tasks for validation.</li>
+<li>To develop and refine <strong>interpretable ML and bioinspired algorithms for EEG analysis</strong> to predict variables/timeseries of interest (rhythm, pitch) at the group and subject level.</li>
+<li>To evaluate and improve state-of-the-art <strong>feature extraction methods for EEG</strong>, including PAC, NFTs, etc., and compare these to traditional EEG features (ERP, power spectrum…).</li>
+<li>To <strong>communicate</strong> the methods and results to the scientific community, specialized audience and the public. Additionally, to identify potential uses of the developed methodology and findings in other domains.</li>
+</ol>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<p>The project is already running.</p>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications:</h2>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="talks" class="level2">
+<h2 class="anchored" data-anchor-id="talks">Talks</h2>
+<ul>
+<li></li>
+</ul>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+</section>
+</section>
+<section id="funding" class="level1">
+<h1>Funding</h1>
+<p>This project CNS2024-154296 is funded by MICIU/AEI/10.13039/501100011033.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="MICIU+AEI.jpg" class="img-fluid figure-img"></p>
+<figcaption>Funding body</figcaption>
+</figure>
+</div>
 
 
+</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{martinez-murcia2025,
+  author = {Martinez-Murcia, F.J.},
+  title = {ML2BRAIN},
+  date = {2025-04-01},
+  url = {https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-martinez-murcia2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Martinez-Murcia, F.J. 2025. <span>“ML2BRAIN.”</span> April 1, 2025. <a href="https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/">https://pakitochus.github.io/research/pakitochus.github.io/research/2023-09-01-project-latidos/</a>.
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -763,5 +866,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>
